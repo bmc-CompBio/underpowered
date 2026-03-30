@@ -1,0 +1,255 @@
+{
+  "corpus_version": "nature_v649_i8099",
+  "source_issue": {
+    "journal": "Nature",
+    "issn": "0028-0836",
+    "volume": 649,
+    "issue": 8099,
+    "date": "2026-01-29"
+  },
+  "total_articles": 22,
+  "articles": [
+    {
+      "doi": "10.1038/s41586-025-09728-y",
+      "title": "Hot droughts in the Amazon\u00a0provide a window to a future hypertropical climate",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2025-12-10",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09777-3",
+      "title": "Optical control of integer and fractional Chern insulators",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09809-y",
+      "title": "Viral RNA blocks circularization to evade host codon usage control",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2025-12-3",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09812-3",
+      "title": "Whole-genome landscapes of 1,364 breast cancers",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2025-12-3",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09834-x",
+      "title": "A direct role for a mitochondrial targeting sequence in signalling stress",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2025-12-10",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09836-9",
+      "title": "Sterilization and contraception increase lifespan across vertebrates",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2025-12-10",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09843-w",
+      "title": "Palaeometabolomes yield biological and ecological profiles at early human sites",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2025-12-17",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09851-w",
+      "title": "Optical control over topological Chern number in moir\u00e9 materials",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09852-9",
+      "title": "RNA-triggered Cas12a3 cleaves tRNA tails to execute bacterial immunity",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-7",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09857-4",
+      "title": "Accurate determination of the 3D atomic structure of amorphous materials",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09898-9",
+      "title": "Nutrient requirements of organ-specific metastasis in breast cancer",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-7",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09901-3",
+      "title": "Sunyaev\u2013Zeldovich detection of hot intracluster gas at redshift 4.3",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-5",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09922-y",
+      "title": "Artificial intelligence tools expand scientists\u2019 impact but contract science\u2019s focus",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-14",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09924-w",
+      "title": "Limit of atomic-resolution-tomography reconstruction of amorphous nanoparticles",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09931-x",
+      "title": "A flexible digital compute-in-memory chip for edge intelligence",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09959-z",
+      "title": "Low-power integrated optical amplification through second-harmonic resonance",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09962-4",
+      "title": "A benchmark of expert-level academic questions to assess AI capabilities",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09971-3",
+      "title": "Quantum spin resonance in engineered proteins for multimodal sensing",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-21",
+      "subject_classification": "uncertain_mixed",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09973-1",
+      "title": "An X-ray-emitting protocluster at z \u2248 5.7 reveals rapid structure growth",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09998-6",
+      "title": "Atmospheric microplastic emissions from land and ocean",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-21",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10013-1",
+      "title": "Extreme barocaloric effect at dissolution",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-21",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10014-0",
+      "title": "Advancing regulatory variant effect prediction with AlphaGenome",
+      "volume": "649",
+      "issue": "8099",
+      "published_date": "2026-1-28",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    }
+  ]
+}

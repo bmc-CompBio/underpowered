@@ -1,0 +1,18 @@
+# Downloaded PDFs — large files, reproducible by running the pipeline
+data/pdfs/
+
+# macOS metadata
+.DS_Store
+
+# Claude Code project memory (local to this machine)
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/

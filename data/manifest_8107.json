@@ -1,0 +1,288 @@
+{
+  "corpus_version": "nature_v651_i8107",
+  "source_issue": {
+    "journal": "Nature",
+    "issn": "0028-0836",
+    "volume": 651,
+    "issue": 8107,
+    "date": "2026-03-26"
+  },
+  "total_articles": 25,
+  "articles": [
+    {
+      "doi": "10.1038/s41586-025-09989-7",
+      "title": "Atlas-guided discovery of transcription factors for T cell programming",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-4",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-09990-0",
+      "title": "LetA defines a structurally distinct transporter family",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-1-21",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10004-2",
+      "title": "Individualized mRNA vaccines evoke durable T cell immunity in adjuvant TNBC",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-18",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10010-4",
+      "title": "Vagal blood volume receptors compensate for haemorrhage and posture change",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-1-28",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10046-6",
+      "title": "Cholinergic modulation of dopamine release drives effortful behaviour",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-1-28",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10059-1",
+      "title": "Parkinson\u2019s disease as a somato-cognitive action network disorder",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-4",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10060-8",
+      "title": "Bacterial immune activation via supramolecular assembly with phage triggers",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-4",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10075-1",
+      "title": "A pore-forming antiphage defence is activated by oligomeric phage proteins",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-4",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10077-z",
+      "title": "Fossil isotope evidence for trophic simplification on modern Caribbean reefs",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-11",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10092-0",
+      "title": "Ancient co-option of LTR retrotransposons as yeast centromeres",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-18",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-025-10093-z",
+      "title": "Regulatory grammar in human promoters uncovered by MPRA-based deep learning",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-4",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10100-x",
+      "title": "Mosquito\u2013capsid interactions contribute to flavivirus vector specificity",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-4",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10112-7",
+      "title": "Genomic history of early dogs in Europe",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10130-5",
+      "title": "CO2 subsurface mineral storage by its co-injection with recirculating water",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10137-y",
+      "title": "Clonal-aggregative multicellularity tuned by salinity in a choanoflagellate",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-2-25",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10170-x",
+      "title": "Dogs were widely distributed across western Eurasia during the Palaeolithic",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10209-z",
+      "title": "Superluminal correlations in ensembles of optical phase singularities",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10221-3",
+      "title": "Towards intelligent and miniaturized drug delivery devices",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10231-1",
+      "title": "A fast starburst wind consumes most of the energy from supernovae",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "uncertain",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10237-9",
+      "title": "Moderate global warming does not rule out extreme global climate outcomes",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10262-8",
+      "title": "Integrated photonic neural network with on-chip backpropagation training",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-18",
+      "subject_classification": "uncertain_mixed",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10265-5",
+      "title": "Towards end-to-end automation of AI research",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10272-6",
+      "title": "Quantifying climate loss and damage consistent with a social cost of carbon",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-25",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10275-3",
+      "title": "Integrated memristor for mitigating reverse-bias in perovskite solar cells",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-18",
+      "subject_classification": "uncertain_mixed",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    },
+    {
+      "doi": "10.1038/s41586-026-10282-4",
+      "title": "Magnetic resonance control of spin-correlated radical pair dynamics in vivo",
+      "volume": "651",
+      "issue": "8107",
+      "published_date": "2026-3-18",
+      "subject_classification": "non_life_science",
+      "reporting_summary_url": null,
+      "sample_size_raw": null,
+      "sample_size_category": null
+    }
+  ]
+}

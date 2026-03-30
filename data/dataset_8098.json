@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "corpus_version": "nature_v649_i8098",
+  "source_issue": {
+    "journal": "Nature",
+    "issn": "0028-0836",
+    "volume": 649,
+    "issue": 8098,
+    "date": "2026-01-22"
+  },
+  "total_articles_in_issue": 16,
+  "life_science_candidates": 4,
+  "articles_with_rs_url": 4,
+  "articles_extracted": 4,
+  "classification_categories": {
+    "power_calc": "Formal a priori power calculation (\u03b1, \u03b2, effect size specified)",
+    "effect_size_estimate": "Quantitative estimate from pilot/literature, no formal calc",
+    "replication_standard": "Appeal to field convention or replication of prior study",
+    "resource_constraint": "Sample size limited by availability, budget, or cohort size",
+    "methodology_determined": "Sample size inherently defined by measurement technique or study design (stereology, cryo-EM, single-molecule imaging, complete-specimen census); no separate determination step expected",
+    "no_justification": "n stated but no reasoning provided",
+    "na_or_blank": "Field empty, N/A, or not applicable",
+    "ambiguous": "Text present but insufficient to classify"
+  },
+  "records": [
+    {
+      "doi": "10.1038/s41586-025-09770-w",
+      "title": "Astrocyte CCN1 stabilizes neural circuits in the adult brain",
+      "volume": "649",
+      "issue": "8098",
+      "published_date": "2025-12-17",
+      "subject_classification": "life_science",
+      "reporting_summary_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09770-w/MediaObjects/41586_2025_9770_MOESM2_ESM.pdf",
+      "pdf_accessible": true,
+      "pdf_searchable": true,
+      "question_found": true,
+      "rs_form_type": null,
+      "sample_size_raw": "For bulk RiboSeq, 3-6 mice per sequenced per age or condition based on Boisvert el. 2018 Cell Reports. For smFISH, Western blotting, immunohistochemistry experiments, 2-3 technical replicates (slices or blots) were obtained per mouse per experimental group. 3-6 mice were obtained per condition per experiment. These sample sizes were based on pilot experiments and previous published work from the lab (e.g. Blanco-Suarez et al.,2018 Neuron). For Arc induction smFISH experiments, sample size was based on Blanco-Suarez et al. 2018 Neuron and confirmed with a power analysis with power = 0.80. For electrophysiology, sample size was mice per experimental group. Number of cells and mice were determined by similar studies in the field (Kannan et al., 2016, J Neurosci; Lambo and Turrigiano 2013 J Neurosci; Xin et al. 2024 Nature). For two-photon imaging, sample size was 4 mice per genotype for the monocular deprivation experiments. This was based on relevant literature in the field (e.g. Tan et al., 2020 Neuron). For single-cell RNA sequencing experiments, 2 cortices were pooled per mouse and 2 mice were pooled per biological replicate as described in Farhy-Tselnicker et al. 2021 Elife. Two",
+      "sample_size_category": "effect_size_estimate",
+      "extraction_confidence": "high"
+    },
+    {
+      "doi": "10.1038/s41586-025-09794-2",
+      "title": "The\u00a0Microflora Danica atlas of Danish environmental microbiomes",
+      "volume": "649",
+      "issue": "8098",
+      "published_date": "2025-12-3",
+      "subject_classification": "life_science",
+      "reporting_summary_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09794-2/MediaObjects/41586_2025_9794_MOESM2_ESM.pdf",
+      "pdf_accessible": true,
+      "pdf_searchable": true,
+      "question_found": true,
+      "rs_form_type": null,
+      "sample_size_raw": "was determined by feasibility and reach. We have described the sampling approach in detail in the methods of the manuscript and Supplementary Data 5, detailing procurement processes of samples contributed by Microflora Danica consortium members, and the Microflora Danica sampling campaign.",
+      "sample_size_category": "resource_constraint",
+      "extraction_confidence": "high"
+    },
+    {
+      "doi": "10.1038/s41586-025-09869-0",
+      "title": "Fasting boosts breast cancer therapy efficacy via glucocorticoid activation",
+      "volume": "649",
+      "issue": "8098",
+      "published_date": "2025-12-10",
+      "subject_classification": "life_science",
+      "reporting_summary_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09869-0/MediaObjects/41586_2025_9869_MOESM2_ESM.pdf",
+      "pdf_accessible": true,
+      "pdf_searchable": true,
+      "question_found": true,
+      "rs_form_type": null,
+      "sample_size_raw": "For our in vitro experiments, no statistical method was used to predetermine sample size, but our sample size were similar to those reported in several publication including ours (at least three technical replicates each experiment). For our in vivo experiments, we estimated sample size by PS (Power and Sample size calculation-Vanderbilt University) software considering a multifactorial variance analysis. By this approach we estimated that the minimum number of mice that was assigned to each treatment group in our in vivo experiments (typically n=5) would reach a power of 0.85. The Type | error probability associated with our tests of the null hypothesis was 0.05. For ChIP-seq and RNA-seq experiments , a minimal of n=3 was used for independent biological samples, to allow for t-test statistics. (doi: https://doi.org/10.1186/s13059-014-0550-8) z a Cc a eo) fe) = o = a eo) fe) g 5 vo} mA Cc 3 3 \u00bb <",
+      "sample_size_category": "power_calc",
+      "extraction_confidence": "high"
+    },
+    {
+      "doi": "10.1038/s41586-025-09887-y",
+      "title": "Lesion-remote astrocytes govern microglia-mediated white matter repair",
+      "volume": "649",
+      "issue": "8098",
+      "published_date": "2025-12-17",
+      "subject_classification": "life_science",
+      "reporting_summary_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09887-y/MediaObjects/41586_2025_9887_MOESM2_ESM.pdf",
+      "pdf_accessible": true,
+      "pdf_searchable": true,
+      "question_found": true,
+      "rs_form_type": null,
+      "sample_size_raw": "Animal group sizes were calculated to provide at least 80% power when using the following parameters: probability of type | error (alpha) = .05, a conservative effect size of 0.25, 2-5 treatment groups with multiple measurements obtained per replicate. For all experiments performed as part of this paper the groups sizes are reported.",
+      "sample_size_category": "power_calc",
+      "extraction_confidence": "high"
+    }
+  ]
+}
