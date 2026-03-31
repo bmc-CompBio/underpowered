@@ -291,7 +291,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "No formal statistical power calculations were performed. Sample sizes were chosen based on prior similar experiments and logistical feasibility, ensuring sufficient biological replicates for statistical comparisons (e.g. mosquito fertility and fecundity, infection prevalence and intensity, oocyst size).",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "replication_standard",
       "extraction_confidence": "high",
       "effect_pos_hits": 4,
       "effect_neg_hits": 1,
@@ -299,7 +299,8 @@
       "effect_verdict": "include",
       "abstract": "Abstract Gene drive technology presents a transformative approach to combatting malaria by introducing genetic modifications into wild mosquito populations to reduce their vectorial capacity. Although effective modifications have been developed, these efforts have been confined to laboratories in the global north. We previously demonstrated that modifying Anopheles gambiae to express two exogenous",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Text: \"No formal statistical power calculations were performed.\" Explicitly denies power calc. Basis is prior similar experiments. \u2192 replication_standard."
     },
     {
       "doi": "10.1038/s41586-025-09853-8",
@@ -337,7 +338,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "No statistical method was used to predetermine sample size. The sample sizes for each experiment were chosen based on the following rationales: * Cell toxicity (n=6 independent material-containing culture mediums): This sample size is consistent with common practice in the field for initial biocompatibility assessment and provides a robust basis for evaluating cytotoxicity. * Mouse toxicity (n=3 independent mice) & Rat toxicity (n=3 independent rats): These sample sizes were chosen for this pilot investigation to provide preliminary data on in vivo safety and feasibility, allowing for the observation of major adverse effects before considering larger-scale studies. * Mg content of rat organ and tissue (n=1 rat): The goal was not to study inter-animal variability, which is well-documented in the literature, but to confirm that the magnesium levels from our device fell within a normal physiological range. A single measurement confirming this is logically sufficient for this purpose. * Histological analysis of rat organ and tissue (n=4 fields): This allows for the assessment of organ and tissue morphology and the identification of potential tissue responses in two independent biologi",
-      "sample_size_category": "resource_constraint",
+      "sample_size_category": "replication_standard",
       "extraction_confidence": "high",
       "effect_pos_hits": 2,
       "effect_neg_hits": 1,
@@ -345,7 +346,8 @@
       "effect_verdict": "include",
       "abstract": "Monitoring internal physiological signals is essential for effective medical care1, yet most current technologies rely on external measurements or imaging systems that cannot capture enough deep-tissue dynamics2&#8211;6. Implantable devices offer a solution, but conventional designs often require batteries or magnets7&#8211;11, which carry risks during removal, and existing biodegradable sensors b",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Primary stated rationale: \"consistent with common practice in the field for initial biocompatibility assessment.\" Field convention is the operative justification. \u2192 replication_standard."
     },
     {
       "doi": "10.1038/s41586-025-09821-2",
@@ -407,7 +409,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "For our in vitro experiments, no statistical method was used to predetermine sample size, but our sample size were similar to those reported in several publication including ours (at least three technical replicates each experiment). For our in vivo experiments, we estimated sample size by PS (Power and Sample size calculation-Vanderbilt University) software considering a multifactorial variance analysis. By this approach we estimated that the minimum number of mice that was assigned to each treatment group in our in vivo experiments (typically n=5) would reach a power of 0.85. The Type | error probability associated with our tests of the null hypothesis was 0.05. For ChIP-seq and RNA-seq experiments , a minimal of n=3 was used for independent biological samples, to allow for t-test statistics. (doi: https://doi.org/10.1186/s13059-014-0550-8) z a Cc a eo) fe) = o = a eo) fe) g 5 vo} mA Cc 3 3 \u00bb <",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "replication_standard",
       "extraction_confidence": "high",
       "effect_pos_hits": 8,
       "effect_neg_hits": 0,
@@ -415,7 +417,8 @@
       "effect_verdict": "include",
       "abstract": "The majority of breast cancers are driven by oestrogen receptor-&#945; (ER&#945;) activation, and endocrine therapy represents the mainstay treatment for these patients1. However, resistance is common and tumours often progress after years of endocrine suppression2. Periodic fasting enhances the efficacy of standard endocrine therapy and delays acquired drug resistance, although the underlying mec",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "In vitro: no method used, similar to prior publications (replication_standard). In vivo: claims PS software but method undescribed and remainder of text suggests authors do not understand power concept. Demoted from power_calc per manual review."
     },
     {
       "doi": "10.1038/s41586-025-09887-y",
@@ -590,18 +593,19 @@
       "reporting_summary_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09828-9/MediaObjects/41586_2025_9828_MOESM2_ESM.pdf",
       "pdf_accessible": true,
       "pdf_searchable": true,
-      "question_found": false,
+      "question_found": true,
       "rs_form_type": "unknown",
-      "sample_size_raw": null,
-      "sample_size_category": "na_or_blank",
-      "extraction_confidence": "low",
+      "sample_size_raw": "No statistical methods were used to predetermine the sample sizes. Indeed, it is impossible to calculate the required sample size as the exact magnitude of experimental variation between animals can not be predicted from our current knowledge. The group sizes (at least five animals per group) exceed the minimum number of animals needed to reach statistical significance (p < 0.05) between experimental groups; such practice has been widely accepted in the field and also followed in our own previous publications (Wang et al, Nature 2017; Li et al, Nature 2017; Wang et al, Nature 2020). Independent repeats during the course of this study have also validated the accountability of the sample size chosen in our study.",
+      "sample_size_category": "replication_standard",
+      "extraction_confidence": "high",
       "effect_pos_hits": 6,
       "effect_neg_hits": 0,
       "effect_score": 6,
       "effect_verdict": "include",
       "abstract": "Targeting innate immunity holds promise in cancer immunotherapy, particularly in improving checkpoint inhibitors. However, the use of&amp;nbsp;agonists of the promising innate receptors TLRs and STING1&#8211;4 is facing challenges. Here we examined the antitumour function of the &#945;-kinase 1 (ALPK1) receptor for bacterial ADP-heptose (ADP-Hep)5&#8211;7. Treatment of mice with ADP-Hep induced mu",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Extraction failed (question_found=false); text provided by manual review. Classification: replication_standard \u2014 field convention + own prior publications as primary justification; impossible-to-calculate claim is secondary rationalisation."
     },
     {
       "doi": "10.1038/s41586-025-09829-8",
@@ -686,7 +690,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "A priori sample size calculations were not performed. For experiments using human tissues, we included as many different samples (n=3) as we were able to obtain. For others, minimum sample sizes were estimated based on previously published studies (PMID: 31277925; PMID: 31846650).",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "replication_standard",
       "extraction_confidence": "high",
       "effect_pos_hits": 1,
       "effect_neg_hits": 0,
@@ -694,7 +698,8 @@
       "effect_verdict": "include",
       "abstract": "The appropriate generation of upper-layer neurons is necessary to create the circuits that underlie complex brain functions. Radial progenitors divide asymmetrically to generate neurogenic intermediate progenitors (IPs; also known as intermediate precursors), and the symmetric proliferation of IPs rapidly expands the cortical neuronal population. The dynamic maintenance of balanced diversity of co",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Text: \"A priori sample size calculations were not performed.\" Explicit denial. Minimum sizes estimated based on previously published studies. \u2192 replication_standard."
     },
     {
       "doi": "10.1038/s41586-025-09824-z",
@@ -802,7 +807,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "Sample size calculation was not applicable, as this study focused on a single individual. For NK-cell phenotyping, sample size calculation was not applicable as this study was focused on one specific individual, similar to previously published literature (https://doi.org/10.1038/s41591-024-03277-z). Accordingly, sample size calculation for ADCC assays was not applicable zl 2 Cc a me) fe) o = a me) S g 5 ve} a c 3 3 2 < as the assay was focused on longitudinal sampling from one specific individual. The number of biological replicates was chosen based on previous experience and standards in the field.",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "na_or_blank",
       "extraction_confidence": "high",
       "effect_pos_hits": 2,
       "effect_neg_hits": 0,
@@ -810,7 +815,8 @@
       "effect_verdict": "include",
       "abstract": "Abstract HIV cure is exceptionally rare, with only six cases documented among the estimated 88 million individuals who have acquired HIV since the onset of the epidemic 1\u20136 . Successful cures, including that of the pioneering individual known as the Berlin patient, are limited to those who received allogeneic stem cell transplants (allo-SCTs) for haematological cancers. HIV resistance from stem ce",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "\"Sample size calculation was not applicable, as this study focused on a single individual.\" N=1 case study; formula repeated 3 times. Not a power calculation. \u2192 na_or_blank."
     },
     {
       "doi": "10.1038/s41586-025-09899-8",
@@ -870,8 +876,8 @@
       "pdf_searchable": true,
       "question_found": true,
       "rs_form_type": "Life sciences study design",
-      "sample_size_raw": null,
-      "sample_size_category": "na_or_blank",
+      "sample_size_raw": "Sample sizes were determined using previously published protocols. Power analyses showed the appropriate sample sizes to use for 80% power to detect an estimated detectable effect size, assuming a 5% significance level and a two-sided test.",
+      "sample_size_category": "power_calc",
       "extraction_confidence": "medium",
       "effect_pos_hits": 3,
       "effect_neg_hits": 1,
@@ -879,7 +885,8 @@
       "effect_verdict": "include",
       "abstract": "Abstract Disease tolerance is a defence strategy essential for survival of infections, limiting physiological damage without killing the pathogen 1,2 . The disease course and pathology an infection may cause can change over the lifespan of a host due to the structural and functional physiological changes that accumulate with age. Because successful disease tolerance responses require the host to e",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Text provided by manual reading of rotated RS PDF (unreadable by pdfplumber). Classified as power_calc per RS text, BUT full-text check needed: user reports many N=3 in paper, which may not be consistent with a genuine power calculation. Needs verification."
     },
     {
       "doi": "10.1038/s41586-025-09940-w",
@@ -987,16 +994,17 @@
       "pdf_searchable": true,
       "question_found": true,
       "rs_form_type": "Life sciences study design",
-      "sample_size_raw": null,
-      "sample_size_category": "na_or_blank",
-      "extraction_confidence": "medium",
+      "sample_size_raw": "For Lassa virus \"Togo isolate\", assuming a one-tailed alpha of 0.05, sample sizes of 5 per group will provide >80% power to detect a difference in proportion of surviving animals between the treatment group (100% survival rate) and the control group (0% survival rate), using a Fisher's exact test. One control animal per challenge period is used to confirm lethality of challenge material used in the treatment studies where-in clinical parameters are compared with historical control animals derived from other experiments using the identical challenge material (ie same virus passage). This allows for an ethical reduction in animal number use for data with highly predictable, lethal outcomes.",
+      "sample_size_category": "power_calc",
+      "extraction_confidence": "high",
       "effect_pos_hits": 3,
       "effect_neg_hits": 0,
       "effect_score": 3,
       "effect_verdict": "include",
       "abstract": "There are no approved treatments for Lassa fever, which is estimated to cause 100,000 to 300,000 infections and 5,000 deaths annually in West Africa1,2. Recently, it was shown that 4&#8242;-fluorouridine (also known as EIDD-2749), an orally available ribonucleoside analogue, protected guinea pigs from lethal challenge with the lineage IV prototype Josiah strain of Lassa virus when treatment was de",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Text provided by manual reading of scanned RS PDF. Genuine power calculation: \u03b1=0.05 one-tailed, >80% power, Fisher's exact test, n=5 per group. Caveat: effect size assumed is 100% vs 0% survival \u2014 the maximum possible, which minimises required n and only justifies detection of a perfect response."
     },
     {
       "doi": "10.1038/s41586-025-09907-x",
@@ -1056,16 +1064,17 @@
       "pdf_searchable": true,
       "question_found": true,
       "rs_form_type": "Life sciences study design",
-      "sample_size_raw": null,
-      "sample_size_category": "na_or_blank",
-      "extraction_confidence": "medium",
+      "sample_size_raw": "Single-cell fluorescence imaging: No formal sample-size calculation was performed because the experiments involve large, independently measured cell populations where increasing the number of cells primarily reduces measurement noise rather than altering effect size estimation. Sample sizes were determined based on established practice in the field with a minimum of 3 independent experiments. Other experiments (plate-reader functional assays): For all functional assays performed in the plate reader, no statistical sample-size calculation was performed either. Instead, sample sizes were chosen based on prior experience with these well-established assays, where effect sizes are robust and biological variability is low under controlled culture conditions. We routinely use at least three independent biological replicates, each measured with technical replication, because these replicate numbers have historically been sufficient to detect the expected differences with appropriate statistical power and to yield consistent results across independent experiments. The chosen sample sizes therefore provide reliable estimation of mean values and variance and are standard for this experimental system.",
+      "sample_size_category": "replication_standard",
+      "extraction_confidence": "high",
       "effect_pos_hits": 3,
       "effect_neg_hits": 0,
       "effect_score": 3,
       "effect_verdict": "include",
       "abstract": "Abstract G-protein-coupled receptors (GPCRs) are key mediators of cell communication and represent the most important class of drug targets 1,2 . Biophysical studies with purified GPCRs in vitro have suggested that they exist in an equilibrium of distinct inactive and active states, which is modulated by ligands in an efficacy-dependent manner 3\u201311 . However, how efficacy is encoded and whether mu",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Text provided by manual reading of scanned RS PDF. Both experimental arms explicitly deny formal calculation. Justification: field convention (n=3 minimum) + historical sufficiency claim. \u2192 replication_standard. Notable phrase: \"have historically been sufficient to detect the expected differences with appropriate statistical power\" \u2014 circular reasoning."
     },
     {
       "doi": "10.1038/s41586-025-09987-9",
@@ -1171,16 +1180,17 @@
       "pdf_searchable": true,
       "question_found": true,
       "rs_form_type": "Life sciences study design",
-      "sample_size_raw": null,
-      "sample_size_category": "na_or_blank",
-      "extraction_confidence": "medium",
+      "sample_size_raw": "No statistical methods were used to predetermine sample size. Sample sizes were chosen based on prior publications involving similar methods that have shown, that such samples sizes resulted in acceptable statistical power (Jercog et al. 2021).",
+      "sample_size_category": "replication_standard",
+      "extraction_confidence": "high",
       "effect_pos_hits": 1,
       "effect_neg_hits": 1,
       "effect_score": 0,
       "effect_verdict": "include",
       "abstract": "Animals continuously evaluate their surroundings to decide whether to approach rewarding opportunities or avoid potential threats. Assigning the appropriate importance to environmental stimuli is not only crucial for survival but also underlies complex forms of goal-directed behaviour that are shared across species, including humans1&#8211;4. Understanding how the brain translates such sensory cue",
       "filter1_excluded": false,
-      "manual_override": true
+      "manual_override": true,
+      "manual_override_note": "Text provided by manual reading of scanned RS PDF. Explicit denial of formal calculation. Justification: prior publication (Jercog et al. 2021) showed same n \"resulted in acceptable statistical power.\" Circular historical-sufficiency reasoning. \u2192 replication_standard."
     },
     {
       "doi": "10.1038/s41586-025-09913-z",
@@ -1356,7 +1366,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "Sample sizes were determined based on prior experience with each assay, and practical constraints. No formal a priori power calculations were performed. Ribosome profiling experiments were performed with 2 biological replicates due to the requirement to process samples in parallel to avoid batch effects. Luciferase assays and GFP flow cytometry experiments were conducted with 23 biological replicates to allow statistical comparison. Immunoprecipitation (IP) experiments were performed with 3-4 biological replicates, depending on feasibility. All \u201cn\u201d values refer to biological replicates (independent experiments), with technical replicates averaged prior to analysis.",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "resource_constraint",
       "extraction_confidence": "high",
       "effect_pos_hits": 3,
       "effect_neg_hits": 0,
@@ -1364,7 +1374,8 @@
       "effect_verdict": "include",
       "abstract": "The considerable success of mRNA vaccines against SARS-CoV-2 has underscored the potential of synthetic mRNA as a transformative biomedical technology1. A critical feature of this approach is the incorporation of the modified nucleoside N1-methylpseudouridine (m1&#936;), which enhances antigen expression while reducing immunogenicity2&#8211;5. However, a comprehensive understanding of how m1&#936;",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "Text: \"No formal a priori power calculations were performed... determined based on prior experience with each assay, and practical constraints.\" Explicit denial. \u2192 resource_constraint."
     },
     {
       "doi": "10.1038/s41586-025-09958-0",
@@ -1379,7 +1390,7 @@
       "question_found": true,
       "rs_form_type": "behavioural & social sciences study\ndesign",
       "sample_size_raw": "Eight naive male mice were trained and recorded for weeks. In average we recorded 504 + 101 (mean + std) neurons across session and mice. For analyzing backward shifting reward cells we could reliably track 194 reward cells across mice.",
-      "sample_size_category": "resource_constraint",
+      "sample_size_category": "no_justification",
       "extraction_confidence": "high",
       "effect_pos_hits": 2,
       "effect_neg_hits": 2,
@@ -1388,7 +1399,8 @@
       "abstract": "Anticipating future outcomes&amp;nbsp;is a fundamental task of the brain1&#8211;3. This process requires learning the states of the world as well as the transitional relationships between those states. In rodents, the hippocampal spatial cognitive map is thought to be one such internal model4. However, evidence for predictive coding5,6 and reward sensitivity7&#8211;10 in the hippocampal neuronal r",
       "filter1_excluded": false,
       "manual_override": true,
-      "classification_override": true
+      "classification_override": true,
+      "manual_override_note": "Text describes what was recorded (504 neurons, 194 reward cells) but offers no justification for the choice of n=8 mice. \u2192 no_justification."
     },
     {
       "doi": "10.1038/s41586-025-09994-w",
@@ -1564,7 +1576,7 @@
       "question_found": true,
       "rs_form_type": null,
       "sample_size_raw": "Group sample sizes were chosen based on standards in the field and our previous studies where we used power analysis to estimate group sizes that would provide at least 80% power to detect statistically significant differences.",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "replication_standard",
       "extraction_confidence": "high",
       "effect_pos_hits": 3,
       "effect_neg_hits": 1,
@@ -1572,7 +1584,8 @@
       "effect_verdict": "include",
       "abstract": "Abstract The movement of dendritic cells and T cells within secondary lymphoid organs is critical for the development of adaptive immune responses 1,2 . Central to this process is the fibroblastic reticular cell (FRC) network, which forms a highly organized conduit system that facilitates the movement of and interactions between dendritic cells and T cells 3\u20136 . Previous studies have partly charac",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "\"our previous studies where we used power analysis\" \u2014 power analysis done in prior studies, not this one. Justification is own prior practice. \u2192 replication_standard."
     },
     {
       "doi": "10.1038/s41586-025-09997-7",
@@ -2163,7 +2176,7 @@
       "question_found": true,
       "rs_form_type": "Life sciences study design",
       "sample_size_raw": "For statistical comparisons, sample size was selected based on power calculations performed with reference to previous or present experiments carried out in our laboratory and in the field. For patch-clamp recording experiments, we collected data from 6 cells. For Ca2+ imaging experiments, we collected data from 6-15 cells. For biosensor experiments, we collected data from 6-21 organoids. For ex vivo serotonin sensor imaging comparing crypts vs. villi, we collected data from 9-17 samples in 2 mice. For other ex vivo serotonin sensor imaging, we collected images from 136-710 crypts from 3-5 animals. For cFOS staining, we collected data from 4-11 brainstem slices from 4-11 animals. For food intake measurements with IL-25 injected mice, we collected data from 10-15 mice (a mixture of males and females). For food intake measurements from helminth-infected mice, we collected data from 10 mice (a mixture of males and females). For nerve fiber recordings, we collected data from 990 nerve fibers recorded from 41 mice (a mixture of males and females). For RT-PCR, we collected data from 43 cells isolated from 3 mice. For calcium imaging we collected data from 68 cells from 6 male mice. We p",
-      "sample_size_category": "power_calc",
+      "sample_size_category": "effect_size_estimate",
       "extraction_confidence": "high",
       "effect_pos_hits": 5,
       "effect_neg_hits": 0,
@@ -2171,7 +2184,8 @@
       "effect_verdict": "include",
       "abstract": "Abstract Parasitic infections modulate both immune and sensory responses, but how these systems collaborate to elicit protective behaviours remains incompletely understood. The gut epithelium contains specialized sensory cells that detect pathogens and irritants. These include cholinergic tuft cells, which sense parasites and initiate type 2 immune responses 1\u20133 , as well as serotonergic enterochr",
       "filter1_excluded": false,
-      "manual_override": false
+      "manual_override": true,
+      "manual_override_note": "\"power calculations performed with reference to previous or present experiments\" \u2014 no \u03b1, \u03b2, or effect size specified; \"reference to\" prior experiments is not a priori calculation. n=6 cells. \u2192 effect_size_estimate."
     },
     {
       "doi": "10.1038/s41586-026-10306-z",

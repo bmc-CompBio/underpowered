@@ -296,7 +296,7 @@
 <header id="title-block-header">
 <h1 class="title">underpowered</h1>
 </header>
-<h1 id="of-experimental-life-science-papers-in-three-months-of-nature-used-hypothesis-testing-without-justifying-sample-sizes">89% of Experimental Life-Science Papers in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes</h1>
+<h1 id="of-experimental-life-science-papers-in-three-months-of-nature-used-hypothesis-testing-without-justifying-sample-sizes">95% of Experimental Life-Science Papers in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes</h1>
 <p><em>A small automated audit of Nature’s own accountability mechanism</em></p>
 <hr />
 <p>Statistical hypothesis testing is the primary tool by which experimental life-science research claims to distinguish signal from noise. Its validity rests on a simple precondition: the study must have been designed with enough statistical power to detect the effect in question. Without that, a p-value is not a measure of evidence — it is a roll of a biased die whose bias nobody bothered to calculate. The consequences are well-documented: inflated effect sizes, irreproducible findings, wasted resources, and, in translational research, failed clinical trials predicated on effects that were never as large as the underpowered discovery study suggested.</p>
@@ -309,9 +309,9 @@
 <p>I built an automated pipeline that downloads Nature Reporting Summary PDFs and extracts the sample-size field for every experimental life-science paper published across 12 consecutive issues (January to March 2026, issues 8096–8107). Articles using purely structural, observational, or ecological study designs — where the conventional null-hypothesis significance testing (NHST) sample-size logic doesn’t apply — were excluded. This left <strong>83 experimental articles</strong>.</p>
 <p>I then classified the sample-size justification in each Reporting Summary into one of seven categories, resolved ambiguous cases by manual review, and verified the full dataset by hand. The pipeline and raw data are publicly available.</p>
 <hr />
-<h2 id="finding-1-11-had-a-power-calculation">Finding 1: 11% had a power calculation</h2>
-<p>A formal a priori power calculation — specifying α, β, and an expected effect size before data collection — appeared in <strong>9 of 83 articles (11%)</strong>.</p>
-<p>The remaining 89% broke down as follows:</p>
+<h2 id="finding-1-5-claimed-a-power-calculation">Finding 1: 5% claimed a power calculation</h2>
+<p>A formal a priori power calculation — specifying α, β, and an expected effect size before data collection — was claimed in <strong>4 of 83 articles (5%)</strong>.</p>
+<p>The remaining 95% broke down as follows:</p>
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -328,50 +328,62 @@
 <tbody>
 <tr>
 <td>“We used the same n as previous studies in the field”</td>
-<td>27</td>
-<td>33%</td>
+<td>35</td>
+<td>42%</td>
 </tr>
 <tr>
 <td>“We used as many samples as we could get”</td>
-<td>23</td>
-<td>28%</td>
+<td>22</td>
+<td>27%</td>
 </tr>
 <tr>
 <td>“Based on pilot data / literature estimates” (no formal calc)</td>
-<td>13</td>
-<td>16%</td>
+<td>14</td>
+<td>17%</td>
 </tr>
 <tr>
 <td>Field empty or N/A</td>
-<td>6</td>
-<td>7%</td>
+<td>2</td>
+<td>2%</td>
 </tr>
 <tr>
-<td>Technique-determined (stereology, cryo-EM, etc.) — legitimate</td>
+<td>n stated with no explanation whatsoever</td>
 <td>3</td>
 <td>4%</td>
 </tr>
 <tr>
-<td>n stated with no explanation whatsoever</td>
-<td>2</td>
-<td>2%</td>
+<td>Technique-determined (crystallography, cryo-EM, etc.) — legitimate</td>
+<td>3</td>
+<td>4%</td>
 </tr>
 </tbody>
 </table>
 <p>The two most common justifications — convention-copying and resource-limitation — are not sample-size <em>determinations</em>. They are descriptions of how many samples happened to be available or how many the field traditionally uses. Neither tells you whether the study had adequate power to detect the effect it was looking for.</p>
 <p>This is not surprising. Similar audits going back to Button et al. (2013) have repeatedly found low power calculation rates in biomedical research. But those were retrospective reviews of published literature. Here, I am reading the authors’ own prospective disclosures, in a mandatory structured form, in what is widely considered the world’s most prestigious scientific journal.</p>
 <hr />
-<h2 id="finding-2-100-of-experimental-papers-without-a-power-calculation-used-hypothesis-testing-anyway">Finding 2: 100% of experimental papers without a power calculation used hypothesis testing anyway</h2>
-<p>Having established that 89% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for NHST: p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.</p>
-<p>Among the 69 experimental papers that lacked a power calculation and were not technique-determined:</p>
-<p><strong>69 out of 69 used NHST to draw conclusions.</strong></p>
+<h2 id="finding-2-the-5-claiming-a-power-calculation-largely-cannot-demonstrate-it">Finding 2: The 5% claiming a power calculation largely cannot demonstrate it</h2>
+<p>Having identified four articles claiming a formal power calculation, I examined whether the full-text sample sizes were consistent with the stated RS claim.</p>
+<p>Only <strong>1 of 4</strong> had a clearly stated and internally consistent power calculation: a nonhuman primate Lassa fever study that specified α=0.05 (one-tailed), &gt;80% power, and a Fisher’s exact test for survival, yielding n=5 per group — a textbook application, though it assumes a perfect treatment response (100% vs 0% survival), which conveniently minimises the required n.</p>
+<p>The other three:</p>
+<ul>
+<li>One stated α=0.05, 80% power, and a “conservative effect size of 0.25” — yet the dominant group sizes throughout the paper were n=4 and n=6. With f=0.25, a standard calculation yields n≈50–250 per group; the stated parameters and the observed sample sizes are incompatible.</li>
+<li>One stated “80% power, α=0.05, two-sided test” but did not quantify the effect size, and the RS text referred to “previously published protocols” rather than a calculation performed for this study.</li>
+<li>One simply said “sample sizes were chosen based on power calculation and pilot experiments,” with no parameters given — and n=2 appears eight times in the full text.</li>
+</ul>
+<p>This matters because even the 5% figure, low as it is, appears to overstate the actual rate of genuine power calculations. An honest assessment of this corpus places the credible power calculation rate closer to <strong>1 in 83 (1%)</strong>.</p>
+<p>An important note on why the initial automated count was higher: the pipeline originally classified 9 papers as <code>power_calc</code>. Manual cross-check found that 5 of those 9 explicitly denied performing a power calculation in their own RS text — including one paper whose RS stated three times that “sample size calculation was not applicable, as this study focused on a single individual.” Structured reporting only works if the forms are completed accurately.</p>
+<hr />
+<h2 id="finding-3-100-of-experimental-papers-without-a-credible-power-calculation-used-hypothesis-testing-anyway">Finding 3: 100% of experimental papers without a credible power calculation used hypothesis testing anyway</h2>
+<p>Having established that 95% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for NHST: p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.</p>
+<p>Among the experimental papers that lacked a credible power calculation and were not technique-determined:</p>
+<p><strong>70 out of 70 used NHST to draw conclusions.</strong></p>
 <p>Every single one.</p>
 <p>This is the core of the problem. A power calculation and a significance test are two sides of the same coin. The power calculation asks: <em>given the effect I expect, how many samples do I need to reliably detect it?</em> The significance test then asks: <em>did I detect it?</em> Running only the second half — declaring p &lt; 0.05 as confirmation — without having established whether the study was adequately powered is a bit like setting off on a road trip without checking whether you have enough fuel, then declaring you arrived safely because the car didn’t stop.</p>
 <p>In underpowered studies, the false negative rate is unknown. Worse: published findings tend to be those that cleared the significance threshold, creating a selection effect toward inflated effect sizes. The field of reproducibility research has shown this repeatedly. Yet the practice continues, because NHST is familiar, journals accept it, and nobody required a power calculation beforehand.</p>
 <hr />
-<h2 id="finding-3-15-used-non-significant-results-as-positive-evidence">Finding 3: 15% used non-significant results as positive evidence</h2>
+<h2 id="finding-4-16-used-non-significant-results-as-positive-evidence">Finding 4: 16% used non-significant results as positive evidence</h2>
 <p>Perhaps the most troubling finding is a specific form of statistical misuse that only makes sense in the context of underpowered studies.</p>
-<p>In <strong>11 of 71 articles (15%)</strong>, a non-significant result was used as a positive argument — as evidence that a treatment had no effect, that two groups were equivalent, or that a hypothesis could be ruled out. Representative examples:</p>
+<p>In <strong>11 of 70 articles (16%)</strong>, a non-significant result was used as a positive argument — as evidence that a treatment had no effect, that two groups were equivalent, or that a hypothesis could be ruled out. Representative examples:</p>
 <ul>
 <li>“no significant effect on 2A protein or CVB3 RNA levels, <em>suggesting that</em> viral protein functions independently of…”</li>
 <li>“was <em>not significantly different</em> from the homozygous suppressor mutations” [used to argue functional equivalence]</li>

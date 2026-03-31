@@ -1,4 +1,4 @@
-# 89% of Experimental Life-Science Papers in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes
+# 95% of Experimental Life-Science Papers in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes
 
 *A small automated audit of Nature's own accountability mechanism*
 
@@ -24,20 +24,20 @@ I then classified the sample-size justification in each Reporting Summary into o
 
 ---
 
-## Finding 1: 11% had a power calculation
+## Finding 1: 5% claimed a power calculation
 
-A formal a priori power calculation — specifying α, β, and an expected effect size before data collection — appeared in **9 of 83 articles (11%)**.
+A formal a priori power calculation — specifying α, β, and an expected effect size before data collection — was claimed in **4 of 83 articles (5%)**.
 
-The remaining 89% broke down as follows:
+The remaining 95% broke down as follows:
 
 | Justification | n | % |
 |---|---|---|
-| "We used the same n as previous studies in the field" | 27 | 33% |
-| "We used as many samples as we could get" | 23 | 28% |
-| "Based on pilot data / literature estimates" (no formal calc) | 13 | 16% |
-| Field empty or N/A | 6 | 7% |
-| Technique-determined (stereology, cryo-EM, etc.) — legitimate | 3 | 4% |
-| n stated with no explanation whatsoever | 2 | 2% |
+| "We used the same n as previous studies in the field" | 35 | 42% |
+| "We used as many samples as we could get" | 22 | 27% |
+| "Based on pilot data / literature estimates" (no formal calc) | 14 | 17% |
+| Field empty or N/A | 2 | 2% |
+| n stated with no explanation whatsoever | 3 | 4% |
+| Technique-determined (crystallography, cryo-EM, etc.) — legitimate | 3 | 4% |
 
 The two most common justifications — convention-copying and resource-limitation — are not sample-size *determinations*. They are descriptions of how many samples happened to be available or how many the field traditionally uses. Neither tells you whether the study had adequate power to detect the effect it was looking for.
 
@@ -45,13 +45,31 @@ This is not surprising. Similar audits going back to Button et al. (2013) have r
 
 ---
 
-## Finding 2: 100% of experimental papers without a power calculation used hypothesis testing anyway
+## Finding 2: The 5% claiming a power calculation largely cannot demonstrate it
 
-Having established that 89% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for NHST: p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.
+Having identified four articles claiming a formal power calculation, I examined whether the full-text sample sizes were consistent with the stated RS claim.
 
-Among the 69 experimental papers that lacked a power calculation and were not technique-determined:
+Only **1 of 4** had a clearly stated and internally consistent power calculation: a nonhuman primate Lassa fever study that specified α=0.05 (one-tailed), >80% power, and a Fisher's exact test for survival, yielding n=5 per group — a textbook application, though it assumes a perfect treatment response (100% vs 0% survival), which conveniently minimises the required n.
 
-**69 out of 69 used NHST to draw conclusions.**
+The other three:
+
+- One stated α=0.05, 80% power, and a "conservative effect size of 0.25" — yet the dominant group sizes throughout the paper were n=4 and n=6. With f=0.25, a standard calculation yields n≈50–250 per group; the stated parameters and the observed sample sizes are incompatible.
+- One stated "80% power, α=0.05, two-sided test" but did not quantify the effect size, and the RS text referred to "previously published protocols" rather than a calculation performed for this study.
+- One simply said "sample sizes were chosen based on power calculation and pilot experiments," with no parameters given — and n=2 appears eight times in the full text.
+
+This matters because even the 5% figure, low as it is, appears to overstate the actual rate of genuine power calculations. An honest assessment of this corpus places the credible power calculation rate closer to **1 in 83 (1%)**.
+
+An important note on why the initial automated count was higher: the pipeline originally classified 9 papers as `power_calc`. Manual cross-check found that 5 of those 9 explicitly denied performing a power calculation in their own RS text — including one paper whose RS stated three times that "sample size calculation was not applicable, as this study focused on a single individual." Structured reporting only works if the forms are completed accurately.
+
+---
+
+## Finding 3: 100% of experimental papers without a credible power calculation used hypothesis testing anyway
+
+Having established that 95% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for NHST: p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.
+
+Among the experimental papers that lacked a credible power calculation and were not technique-determined:
+
+**70 out of 70 used NHST to draw conclusions.**
 
 Every single one.
 
@@ -61,11 +79,11 @@ In underpowered studies, the false negative rate is unknown. Worse: published fi
 
 ---
 
-## Finding 3: 15% used non-significant results as positive evidence
+## Finding 4: 16% used non-significant results as positive evidence
 
 Perhaps the most troubling finding is a specific form of statistical misuse that only makes sense in the context of underpowered studies.
 
-In **11 of 71 articles (15%)**, a non-significant result was used as a positive argument — as evidence that a treatment had no effect, that two groups were equivalent, or that a hypothesis could be ruled out. Representative examples:
+In **11 of 70 articles (16%)**, a non-significant result was used as a positive argument — as evidence that a treatment had no effect, that two groups were equivalent, or that a hypothesis could be ruled out. Representative examples:
 
 - "no significant effect on 2A protein or CVB3 RNA levels, *suggesting that* viral protein functions independently of…"
 - "was *not significantly different* from the homozygous suppressor mutations" [used to argue functional equivalence]
