@@ -1,14 +1,18 @@
-# Every Experimental Paper in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes
+# Every Experimental Life-Science Paper in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes
 
 *A small automated audit of Nature's own accountability mechanism*
 
 ---
 
+Statistical hypothesis testing is the primary tool by which experimental life-science research claims to distinguish signal from noise. Its validity rests on a simple precondition: the study must have been designed with enough statistical power to detect the effect in question. Without that, a p-value is not a measure of evidence — it is a roll of a biased die whose bias nobody bothered to calculate. The consequences are well-documented: inflated effect sizes, irreproducible findings, wasted resources, and, in translational research, failed clinical trials predicated on effects that were never as large as the underpowered discovery study suggested.
+
+This is not a niche methodological concern. It is arguably the central validity problem of experimental biology. And yet it persists, visibly, in the pages of the highest-impact journals.
+
 In 2023, Nature Portfolio updated its Reporting Summary — the structured disclosure form authors must complete alongside every research paper. One of the questions asks authors to explain how they determined their sample size.
 
 It is, in principle, a powerful accountability tool. Unlike a methods section buried on page 12, the Reporting Summary is a structured form with dedicated fields. If you want to know how a study justified its n, you don't have to read the paper. You just open the PDF.
 
-I wondered: what do three months of Nature actually say when you ask them that question?
+I wondered: what do three months of Nature life-science papers actually say when you ask them that question?
 
 ---
 
@@ -37,13 +41,13 @@ The remaining 89% broke down as follows:
 
 The two most common justifications — convention-copying and resource-limitation — are not sample-size *determinations*. They are descriptions of how many samples happened to be available or how many the field traditionally uses. Neither tells you whether the study had adequate power to detect the effect it was looking for.
 
-This is not surprising. Similar audits going back to Button et al. (2013) have repeatedly found low power calculation rates in biomedical research. But those were retrospective reviews of published literature. Here, we are reading the authors' own prospective disclosures, in a mandatory structured form, in what is widely considered the world's most prestigious scientific journal.
+This is not surprising. Similar audits going back to Button et al. (2013) have repeatedly found low power calculation rates in biomedical research. But those were retrospective reviews of published literature. Here, I am reading the authors' own prospective disclosures, in a mandatory structured form, in what is widely considered the world's most prestigious scientific journal.
 
 ---
 
 ## Finding 2: 100% of experimental papers without a power calculation used hypothesis testing anyway
 
-Having established that 89% of articles lacked a formal power calculation, we downloaded the full-text PDFs and scanned for null-hypothesis statistical testing (NHST): p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.
+Having established that 89% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for null-hypothesis statistical testing (NHST): p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.
 
 Among the 69 experimental papers that lacked a power calculation and were not technique-determined:
 
@@ -72,13 +76,37 @@ The logical problem here is well-established: absence of evidence is not evidenc
 
 ---
 
-## What this is not
+## Discussion
+
+### This is a systemic norm, not a handful of bad actors
 
 This is not a claim that Nature papers are fraudulent, that the findings are wrong, or that the researchers involved are bad scientists. Most of these are excellent papers from accomplished groups. The statistical practices documented here are entirely normal — they are what the field does, what reviewers expect, and what editors accept.
 
-That is precisely the problem. This is not a handful of bad actors. It is a systemic norm.
+That is precisely the problem.
 
-Nature's Reporting Summary was introduced partly to make these practices visible. It worked — we could run this audit automatically because the data are right there in a structured field. The uncomfortable finding is what that visibility reveals.
+Nature's Reporting Summary was introduced partly to make these practices visible. It worked — I could run this audit automatically because the data are right there in a structured field. The uncomfortable finding is what that visibility reveals.
+
+### The deeper problem: NHST is the wrong tool for most of what basic life-science research actually does
+
+There is a more fundamental issue that the power-calculation debate tends to obscure.
+
+Most experimental life-science research published in Nature is not, in any strict sense, confirmatory. It is exploratory. A researcher identifies a gene, a pathway, a cell type, a behaviour — something previously unknown or poorly characterised — and asks: what does it do? What happens if I knock it out, overexpress it, perturb it? The experimental system is novel. The effect sizes are unknown. There is no prior quantitative hypothesis to power against, because the experiment is designed to *discover* the hypothesis, not test a pre-specified one.
+
+Null-hypothesis significance testing was developed for a different context entirely: confirmatory trials with a pre-specified primary endpoint, a pre-registered hypothesis, and a sample size calculated to achieve a defined probability of detecting a clinically meaningful effect. It is a tool for controlled decision-making under uncertainty — pharmaceutical trials, agricultural yield experiments, quality control. Transplanted into exploratory biological research, it does something quite different: it converts the noise of any sufficiently small-n experiment into an apparent signal, selects for results that clear an arbitrary threshold, and then presents those results as if the threshold meant something.
+
+The field has largely adopted the language and ritual of confirmatory testing — p-values, significance thresholds, rejection of null hypotheses — while conducting research that is structurally exploratory. The result is a systematic mismatch between the epistemological claims being made ("we demonstrate that X causes Y") and the evidential basis for making them.
+
+### What worries me most
+
+The data presented here would be less troubling if researchers understood this mismatch and communicated their findings accordingly — as preliminary observations, as hypothesis-generating results requiring replication and follow-up. What I suspect, and what the ubiquity of these practices suggests, is something different: that many researchers genuinely believe that a p-value below 0.05, obtained from an experiment with three biological replicates chosen because that is what the field does, constitutes robust evidence for their conclusion.
+
+This belief is not irrational given how the field trains its members, how reviewers respond to manuscripts, and how journals structure their requirements. It is the natural product of a culture in which statistical testing is performed as a ritual of legitimacy rather than as a tool of inference. The ritual is so deeply embedded that questioning it can seem like questioning science itself.
+
+But the consequences are real. The replication crisis in psychology has been extensively documented; the equivalent crisis in cell and molecular biology is quieter but arguably more serious, because the experiments are more expensive, the model systems more complex, and the translational stakes higher. Treatments that failed in clinical trials because the target biology was established by underpowered mouse experiments are not an abstract possibility. They are a recurring pattern.
+
+None of this is fixed by requiring a power calculation box to be checked on a Reporting Summary form. The fix requires a genuine shift in how the field reasons about evidence — distinguishing exploratory from confirmatory work, reporting effect sizes with uncertainty rather than binary significance calls, and being honest about what a single small experiment in a single model system can and cannot establish.
+
+That shift is possible. Several journals and funders are already pushing in this direction. But it requires acknowledging, first, that there is a problem — which the data above make difficult to deny.
 
 ---
 
