@@ -1,4 +1,4 @@
-# Every Experimental Life-Science Paper in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes
+# Most Experimental Life-Science Papers in Three Months of Nature Used Hypothesis Testing Without Justifying Sample Sizes
 
 *A small automated audit of Nature's own accountability mechanism*
 
