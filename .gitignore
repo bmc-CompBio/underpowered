@@ -1,18 +1,42 @@
-# Downloaded PDFs — large files, reproducible by running the pipeline
+# ── PDFs — large files, reproducible by running the pipeline ─────────────────
 data/pdfs/
 
-# macOS metadata
+# ── Intermediate data files — reproducible from pipeline ─────────────────────
+# Per-issue manifests (Crossref fetch output)
+data/manifest_*.json
+
+# Per-issue extraction datasets (extract_sample_size.py output)
+data/dataset_*.json
+data/sample_size_dataset*.json
+data/sample_size_dataset*.tsv
+
+# Pre-filtering merged dataset
+data/multi_issue_dataset.json
+data/multi_issue_dataset.tsv
+
+# Legacy pilot outputs
+data/corpus_filtered.json
+data/corpus_filtered.tsv
+data/issue_manifest.json
+
+# Abstract cache — large, reproducible via Crossref
+data/abstracts_cache.json
+
+# TSV files — derived from JSON outputs, for local inspection only
+data/*.tsv
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store
 
-# Claude Code project memory (local to this machine)
+# ── Claude Code project memory (local to this machine) ───────────────────────
 .claude/
 
-# Python
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 *.egg-info/
 
-# Jupyter
+# ── Jupyter ───────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
