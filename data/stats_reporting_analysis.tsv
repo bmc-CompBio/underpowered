@@ -1,0 +1,72 @@
+doi	issue	sample_size_category	full_text_available	nhst_used	nhst_source	ns_as_evidence	ns_source	title
+10.1038/s41586-025-09853-8	8096	replication_standard	True	True	full_text	False	none	An RNA splicing system that excises DNA transposons from animal mRNAs
+10.1038/s41586-025-09874-3	8096	resource_constraint	True	False	none	False	none	Soft biodegradable implants for long-distance and wide-angle sensing
+10.1038/s41586-025-09821-2	8097	replication_standard	True	True	full_text	True	full_text	Mutations in mitochondrial ferredoxin FDX2 suppress frataxin deficiency
+10.1038/s41586-025-09770-w	8098	effect_size_estimate	True	True	full_text	False	none	Astrocyte CCN1 stabilizes neural circuits in the adult brain
+10.1038/s41586-025-09809-y	8099	replication_standard	True	True	full_text	True	full_text	Viral RNA blocks circularization to evade host codon usage control
+10.1038/s41586-025-09834-x	8099	replication_standard	True	True	full_text	False	none	A direct role for a mitochondrial targeting sequence in signalling stress
+10.1038/s41586-025-09836-9	8099	effect_size_estimate	True	True	full_text	True	full_text	Sterilization and contraception increase lifespan across vertebrates
+10.1038/s41586-025-09852-9	8099	replication_standard	True	True	full_text	False	none	RNA-triggered Cas12a3 cleaves tRNA tails to execute bacterial immunity
+10.1038/s41586-025-09898-9	8099	resource_constraint	True	True	full_text	False	none	Nutrient requirements of organ-specific metastasis in breast cancer
+10.1038/s41586-025-09825-y	8100	resource_constraint	True	True	full_text	False	none	Uncovering the role of LINE-1 in the evolution of lung adenocarcinoma
+10.1038/s41586-025-09828-9	8100	na_or_blank	True	True	full_text	False	none	Agonists for cytosolic bacterial receptor ALPK1 induce antitumour immunity
+10.1038/s41586-025-09829-8	8100	replication_standard	True	True	full_text	False	none	Human gut M cells resemble dendritic cells and present gluten antigen
+10.1038/s41586-025-09929-5	8100	resource_constraint	True	True	full_text	False	none	Correlates of HIV-1 control after combination immunotherapy
+10.1038/s41586-025-09932-w	8100	resource_constraint	True	True	full_text	False	none	CD8+ T cell stemness precedes post-intervention control of HIV viraemia
+10.1038/s41586-025-09824-z	8101	effect_size_estimate	True	True	full_text	False	none	Erythropoietin receptor on cDC1s dictates immune tolerance
+10.1038/s41586-025-09866-3	8101	resource_constraint	True	True	full_text	False	none	Causal modelling of gene effects from regulators to programs to traits
+10.1038/s41586-025-09884-1	8101	effect_size_estimate	True	True	full_text	False	none	Human assembloids recapitulate periportal liver tissue in vitro
+10.1038/s41586-025-09888-x	8102	effect_size_estimate	True	True	full_text	True	full_text	Plastic landmark anchoring in zebrafish compass neurons
+10.1038/s41586-025-09899-8	8102	replication_standard	True	True	full_text	False	none	Stress controls heterochromatin inheritance via histone H3 ubiquitylation
+10.1038/s41586-025-09903-1	8102	effect_size_estimate	True	True	full_text	False	none	Intratumoural vaccination via checkpoint degradation-coupled antigen presentation
+10.1038/s41586-025-09923-x	8102	na_or_blank	True	True	full_text	False	none	Disease tolerance and infection pathogenesis age-related tradeoffs in mice
+10.1038/s41586-025-09940-w	8102	resource_constraint	True	True	full_text	False	none	A nowhere-to-hide mechanism ensures complete piRNA-directed DNA methylation
+10.1038/s41586-025-09978-w	8102	no_justification	True	True	full_text	False	none	Oxygen-free metabolism in the bird inner retina supported by the pecten
+10.1038/s41586-025-09881-4	8103	effect_size_estimate	True	True	full_text	False	none	Genetic switch between unicellularity and multicellularity in marine yeasts
+10.1038/s41586-025-09896-x	8103	replication_standard	True	True	full_text	False	none	Mitochondrial transfer from glia to neurons protects against peripheral neuropathy
+10.1038/s41586-025-09906-y	8103	na_or_blank	True	True	full_text	False	none	Oral 4′-fluorouridine rescues nonhuman primates from advanced Lassa fever
+10.1038/s41586-025-09907-x	8103	replication_standard	True	True	full_text	False	none	Bidirectional CRISPR screens decode a GLIS3-dependent fibrotic cell circuit
+10.1038/s41586-025-09943-7	8103	replication_standard	True	True	full_text	True	full_text	CFAP20 salvages arrested RNAPII from the path of co-directional replisomes
+10.1038/s41586-025-09963-3	8103	na_or_blank	True	True	full_text	False	none	Ligand-specific activation trajectories dictate GPCR signalling in cells
+10.1038/s41586-025-09987-9	8103	effect_size_estimate	True	True	full_text	False	none	Ageing promotes microglial accumulation of slow-degrading synaptic proteins
+10.1038/s41586-025-10001-5	8103	replication_standard	True	True	full_text	False	none	Environmentally driven immune imprinting protects against allergy
+10.1038/s41586-025-10028-8	8103	replication_standard	True	True	full_text	False	none	Tumour–brain crosstalk restrains cancer immunity via a sensory–sympathetic axis
+10.1038/s41586-025-09902-2	8104	na_or_blank	True	True	full_text	True	full_text	Prefrontal neural geometry of learned cues guides motivated behaviours
+10.1038/s41586-025-09913-z	8104	resource_constraint	True	True	full_text	False	none	Microbiota-induced T cell plasticity enables immune-mediated tumour control
+10.1038/s41586-025-09964-2	8104	resource_constraint	True	True	full_text	False	none	Common variation in meiosis genes shapes human recombination and aneuploidy
+10.1038/s41586-025-09983-z	8104	resource_constraint	True	True	full_text	True	full_text	Baby-to-baby strain transmission shapes the developing gut microbiome
+10.1038/s41586-025-09984-y	8104	replication_standard	True	True	full_text	False	none	Intestinal macrophages modulate synucleinopathy along the gut–brain axis
+10.1038/s41586-025-09985-x	8104	effect_size_estimate	True	True	full_text	False	none	Critical role for a high-plasticity cell state in lung cancer
+10.1038/s41586-025-10055-5	8104	replication_standard	True	True	full_text	True	full_text	Rete ridges form via evolutionarily distinct mechanisms in mammalian skin
+10.1038/s41586-025-09926-8	8105	replication_standard	True	True	full_text	False	none	The ubiquitin ligase KLHL6 drives resistance to CD8+ T cell dysfunction
+10.1038/s41586-025-09958-0	8105	resource_constraint	True	True	full_text	True	full_text	Predictive coding of reward in the hippocampus
+10.1038/s41586-025-09994-w	8105	resource_constraint	True	True	full_text	False	none	Identification of an allosteric site on the E3 ligase adapter cereblon
+10.1038/s41586-025-09996-8	8105	replication_standard	True	True	full_text	False	none	Pyramidal neurons proportionately alter cortical interneuron subtypes
+10.1038/s41586-025-10006-0	8105	na_or_blank	True	False	none	False	none	Construction of complex and diverse DNA sequences using DNA three-way junctions
+10.1038/s41586-025-10011-3	8105	replication_standard	True	True	full_text	False	none	PAF15–PCNA exhaustion governs the strand-specific control of DNA replication
+10.1038/s41586-025-10040-y	8105	resource_constraint	True	True	full_text	False	none	Systematic analyses of lipid mobilization by human lipid transfer proteins
+10.1038/s41586-025-09965-1	8106	replication_standard	True	True	full_text	False	none	Polyamine-dependent metabolic shielding regulates alternative splicing
+10.1038/s41586-025-09972-2	8106	replication_standard	True	True	full_text	False	none	The transition from monocyte to tissue-resident macrophage requires DHPS
+10.1038/s41586-025-09997-7	8106	no_justification	True	True	full_text	False	none	Dissecting gene regulatory networks governing human cortical cell fate
+10.1038/s41586-025-10003-3	8106	replication_standard	True	True	full_text	False	none	Convergent evolution of scavenger cell development at brain borders
+10.1038/s41586-025-10047-5	8106	resource_constraint	True	True	full_text	False	none	Developmental convergence and divergence in human stem cell models of autism
+10.1038/s41586-025-10050-w	8106	resource_constraint	True	True	full_text	False	none	Sleep-dependent clearance of brain lipids by peripheral blood cells
+10.1038/s41586-025-10052-8	8106	replication_standard	True	True	full_text	False	none	GlycoRNA complexed with heparan sulfate regulates VEGF-A signalling
+10.1038/s41586-026-10110-9	8106	replication_standard	True	True	full_text	False	none	Reduced cyclin D3 expression in erythroid cells protects against malaria
+10.1038/s41586-026-10179-2		effect_size_estimate	True	True	full_text	False	none	Insulin resistance prediction from wearables and routine blood biomarkers
+10.1038/s41586-026-10219-x		resource_constraint	True	True	full_text	True	full_text	Functional hierarchy of the human neocortex across the lifespan
+10.1038/s41586-026-10220-4		replication_standard	True	True	full_text	False	none	Climbing fibres recruit disinhibition to enhance Purkinje cell calcium signals
+10.1038/s41586-026-10226-y		resource_constraint	True	True	full_text	False	none	Adaptive evolution of gene regulatory networks in mammalian neocortex
+10.1038/s41586-026-10227-x		replication_standard	True	True	full_text	False	none	Biosynthesis of cinchona alkaloids
+10.1038/s41586-026-10232-0		effect_size_estimate	True	True	full_text	False	none	The E3 ubiquitin ligase mechanism specifying targeted microRNA degradation
+10.1038/s41586-026-10242-y		resource_constraint	True	True	full_text	False	none	Thymic health consequences in adults
+10.1038/s41586-026-10243-x		resource_constraint	True	True	full_text	False	none	Thymic health and immunotherapy outcomes in patients with cancer
+10.1038/s41586-026-10250-y		effect_size_estimate	True	True	full_text	False	none	Proteasome-guided haem signalling axis contributes to T cell exhaustion
+10.1038/s41586-026-10258-4		resource_constraint	True	True	full_text	False	none	Epigenetic memory of colitis promotes tumour growth
+10.1038/s41586-026-10259-3		replication_standard	True	True	full_text	False	none	Synthetic circuits for cell ratio control
+10.1038/s41586-026-10264-6		resource_constraint	True	True	full_text	False	none	Androgen activity in the male embryonic hindbrain drives lethal PFA ependymoma
+10.1038/s41586-026-10266-4		resource_constraint	True	True	full_text	True	full_text	Exposed phosphatidylserine is an inhibitory molecule in T cell exhaustion
+10.1038/s41586-026-10267-3		replication_standard	True	True	full_text	False	none	Rapid concerted switching of the neural code in the inferotemporal cortex
+10.1038/s41586-026-10268-2		effect_size_estimate	True	True	full_text	False	none	Catabolism of extracellular glutathione supplies cysteine to support tumours
+10.1038/s41586-026-10270-8		resource_constraint	True	True	full_text	False	none	Dominant clones leverage developmental epigenomic states to drive ependymoma
+10.1038/s41586-026-10306-z		replication_standard	True	True	full_text	False	none	Aversive learning hijacks a brain sugar sensor to consolidate memory

@@ -1,0 +1,1246 @@
+{
+  "schema_version": "2.1",
+  "source_dataset": "data/multi_issue_dataset_filtered.json",
+  "records_analysed": 71,
+  "excluded_categories": [
+    "methodology_determined",
+    "power_calc"
+  ],
+  "full_text_available": 71,
+  "summary": {
+    "nhst_used": 69,
+    "nhst_with_full_text": 69,
+    "nhst_abstract_only": 0,
+    "ns_as_evidence": 11,
+    "both": 11
+  },
+  "results": [
+    {
+      "doi": "10.1038/s41586-025-09853-8",
+      "title": "An RNA splicing system that excises DNA transposons from animal mRNAs",
+      "issue": "8096",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "c ecneuqes eroponaN ITR Tc1 ITR WT ENTH Tc1::rsd-3 (\u2013) ENTH P < 0.0001 PTC (\u00d720) Tc1::pk2013 Tc1 ENTH P = 0.0898 PTC (\u00d720) Tc1::pk2010 E Tc1 NTH P < 0.0001 1.0 0 50 100 WT Dpy (%) 0.5 (in",
+        "1::rsd-3 (\u2013) ENTH P < 0.0001 PTC (\u00d720) Tc1::pk2013 Tc1 ENTH P = 0.0898 PTC (\u00d720) Tc1::pk2010 E Tc1 NTH P < 0.0001 1.0 0 50 100 WT Dpy (%) 0.5 (in vivo) 91% 0 1.0 smg-2(\u2013) 0.5 (in vivo) 96",
+        ":pk2013 Tc1 ENTH P = 0.0898 PTC (\u00d720) Tc1::pk2010 E Tc1 NTH P < 0.0001 1.0 0 50 100 WT Dpy (%) 0.5 (in vivo) 91% 0 1.0 smg-2(\u2013) 0.5 (in vivo) 96% 0 23 9988 1,582 1,655 11,,669999 2,559Pos"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09874-3",
+      "title": "Soft biodegradable implants for long-distance and wide-angle sensing",
+      "issue": "8096",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": false,
+      "nhst_source": "none",
+      "nhst_evidence_snippets": [],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09821-2",
+      "title": "Mutations in mitochondrial ferredoxin FDX2 suppress frataxin deficiency",
+      "issue": "8097",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "est. Error bars represent mean \u00b1 s.d. NS, not significant, *P < 0.05, with or without suppressor mutations in fdx-2 and nfs-1. Scale bar, 1 mm. **P < 0.01, ***P < 0.001. 1 Complex I subun",
+        "suppressor mutations in fdx-2 and nfs-1. Scale bar, 1 mm. **P < 0.01, ***P < 0.001. 1 Complex I subunits NDUFAB1/ACP 0 \u20131 1% O 2 \u20132 Wild type frh-1(t m fr 5 h 9 -1 1 ; 3 n ) fs-1(R fr 2 h",
+        "tations in fdx-2 and nfs-1. Scale bar, 1 mm. **P < 0.01, ***P < 0.001. 1 Complex I subunits NDUFAB1/ACP 0 \u20131 1% O 2 \u20132 Wild type frh-1(t m fr 5 h 9 -1 1 ; 3 n ) fs-1(R fr 2 h 4 -1 4 ; K f"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "at all oxygen tensions Fe\u2013S cluster complex in requisite, sequential steps of Fe\u2013S cluster and was not significantly different from the homozygous fdx-2(A126V) synthesis. FDX2 as an electron donor is always required for ISC syn- suppressor mutations isolated in our screen (Fig. 4c). These results thesis, whereas FXN is conditionally required in normoxia. An imbal- indicate"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09770-w",
+      "title": "Astrocyte CCN1 stabilizes neural circuits in the adult brain",
+      "issue": "8098",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "vs adult DR vs NR 1 MD contra vs ipsi Ccn1 (relative area) *P = 1.5 \u00d7 10\u201320 L1 0 10 20 100 200 *P = 0.00082 **** L1 * *** L2/3 *P = 0.027 * **** *P = 3.0 \u00d7 10\u20139 L2/3 ** * *P = 0.049 *P",
+        "i Ccn1 (relative area) *P = 1.5 \u00d7 10\u201320 L1 0 10 20 100 200 *P = 0.00082 **** L1 * *** L2/3 *P = 0.027 * **** *P = 3.0 \u00d7 10\u20139 L2/3 ** * *P = 0.049 *P = 0.0022 **** L4 * * * * * *P = 9.5 \u00d7",
+        "\u00d7 10\u201320 L1 0 10 20 100 200 *P = 0.00082 **** L1 * *** L2/3 *P = 0.027 * **** *P = 3.0 \u00d7 10\u20139 L2/3 ** * *P = 0.049 *P = 0.0022 **** L4 * * * * * *P = 9.5 \u00d7 10\u20138 L5 ***** ** L5 ** L6 L6 P7"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09809-y",
+      "title": "Viral RNA blocks circularization to evade host codon usage control",
+      "issue": "8099",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "0 kDa 15 kDa Membrane in protein levels (Fig. 1b), and also significantly increased both the Data Fig. 1a), indicating a that codon usage has a strong effect on trans- total and the nuclear 2AB RNA leve",
+        "noviridae 1 All human CDS 0 )elacs gol( slevel nietorp A2 2 P = 4.6 \u00d7 10\u20135 P = 0.0025 10 8 6 4 2 0 0.5 0.6 0.7 0.8 0.9 1.0 CAI Fig. 1 | CVB3 2AB shows a strong codon usage effect when e",
+        "human CDS 0 )elacs gol( slevel nietorp A2 2 P = 4.6 \u00d7 10\u20135 P = 0.0025 10 8 6 4 2 0 0.5 0.6 0.7 0.8 0.9 1.0 CAI Fig. 1 | CVB3 2AB shows a strong codon usage effect when expressed like Rig"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "tion. Of note, 2AB codon usage had mal. This is probably because the synthesized mCherry mRNAs were no significant effect on 2A protein or CVB3 RNA levels, suggesting that better at recruiting translation machinery than are cellular mRNAs29. viral protein and RNA expression from the replicon are insensitive to codon usage. These results also indicate that RdRP-mediated",
+        "ddition, mRNA Data Fig. 4a\u2013f, the translation efficiencies of RNA templates with either levels were not significantly altered by codon usage for these RNAs a CVB3 or an EMCV 5\u2032 UTR support mCherry expression at levels com- (Extended Data Fig. 2d). Furthermore, similar results were obtained parable with that of the codon-optimized control mRNA, indicating when the 2AB ORF w",
+        "iral 5\u2032 UTR-containing mRNAs should restore codon-usage-dependent effect; and the 5-nt sequence had no significant effect. This was not due translation. We synthesized circular RNAs (circRNAs) encoding to differences in RNA abundance (Extended Data Fig. 7g). Together, mCherry with the CVB3 5\u2032 UTR (Fig. 5a). As shown in Fig. 5b,c and these findings show that the formati"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09834-x",
+      "title": "A direct role for a mitochondrial targeting sequence in signalling stress",
+      "issue": "8099",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "%( langis yrrehCm raelcun 10 8 6 4 2 0 pdr3\uf044control V5\u2013Pdr3 P = 0.0002 retomorp 1SIC ot gnidnib evitaleR )tnemhcirne dlof( NS 120 Empty vector PSD1OE 100 80 60 40 20 0 mpty vector PSD1OE",
+        "y vector M GE1 V O 5 E \u2013 M GE1 OE M GE V 1 O 5 E \u2013 M GE1 OE P = 0.0006 GFP11 Mss116\u2013 level ANRm 1SIC )esaercni dlof( 80 60 40 20 0 0 2 4 6 8 10 Distance (\u03bcm) Distance (\u03bcm) NS NS P = 0.000",
+        "0 60 40 20 0 0 2 4 6 8 10 Distance (\u03bcm) Distance (\u03bcm) NS NS P = 0.0005 P = 0.0007 Wild type pdr3\uf044 Distance (\u03bcm) ytisnetni langiS GFP mCherry GFP mCherry GFP mCherry 60 GFP mCherry 40 20 0"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09836-9",
+      "title": "Sterilization and contraception increase lifespan across vertebrates",
+      "issue": "8099",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "re undetermined and could not be linked to a \u03b2 = 0.093, 95% confidence interval [\u22120.005, 0.190]; male: \u03b2 = 0.098, specific cause of death or were the result of a disease or mortality source 95% confi",
+        "ath or were the result of a disease or mortality source 95% confidence interval [0.005, 0.191], R2 < 0.01%) and with different that occurs in such small proportions so as not be recorded as a cat- ty",
+        "breakdown interval [0.007, 0.199]; surgical: \u03b2 = 0.096, 95% confidence interval of specific sub causes of death within each broad mortality category). [0.005, 0.187], R2 = 0.02%). From the ZIMS datab"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "in each comparison. Extended Data Fig. 6 | The change in life expectancy with male sterilization is not significantly correlated with testes mass after controlling for body mass. Data show the relationship between the effect size for change in life- expectancy with male sterilization and log transformed testes mass across mammal species. Dashed lines are the 95% CIs and dotte"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09852-9",
+      "title": "RNA-triggered Cas12a3 cleaves tRNA tails to execute bacterial immunity",
+      "issue": "8099",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "KC--KKCG DGGDTLA 0.7 Target RNA dsDNA ssDNA +1 +2 +3 +4 +5 P = 0.86 0.021 0.097 0.12 0.98 P = 3 \u00d7 8.2 \u00d7 4.4 \u00d7 2.8 \u00d78.6 \u00d7 10\u20134 10\u20135 10\u20135 10\u20135 10\u20134 P = 0.012 0.0027 0.028 0.12 Antibiotic s",
+        "A dsDNA ssDNA +1 +2 +3 +4 +5 P = 0.86 0.021 0.097 0.12 0.98 P = 3 \u00d7 8.2 \u00d7 4.4 \u00d7 2.8 \u00d78.6 \u00d7 10\u20134 10\u20135 10\u20135 10\u20135 10\u20134 P = 0.012 0.0027 0.028 0.12 Antibiotic selection Kan, Cm Kan 14 10 6",
+        ".98 P = 3 \u00d7 8.2 \u00d7 4.4 \u00d7 2.8 \u00d78.6 \u00d7 10\u20134 10\u20135 10\u20135 10\u20135 10\u20134 P = 0.012 0.0027 0.028 0.12 Antibiotic selection Kan, Cm Kan 14 10 6 100 2 Fig. 1 | Two distinct clades related to type V Cas12"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09898-9",
+      "title": "Nutrient requirements of organ-specific metastasis in breast cancer",
+      "issue": "8099",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "P IF Liver IF Lung IF Kidney P IF ancreas IF CSF ND 1.2 1.2 P = 0.0087 1.2 P = 0.013 1.2 P = 0.040 1.2 1.2 0.8 0.8 0.8 0.8 0.8 0.8 0.4 0.4 0.4 0.4 0.4 0.4 0 0 0 0 0 0 Asn: \u2013 + \u2013 + Ctrl KO",
+        "ung IF Kidney P IF ancreas IF CSF ND 1.2 1.2 P = 0.0087 1.2 P = 0.013 1.2 P = 0.040 1.2 1.2 0.8 0.8 0.8 0.8 0.8 0.8 0.4 0.4 0.4 0.4 0.4 0.4 0 0 0 0 0 0 Asn: \u2013 + \u2013 + Ctrl KO CUA dezilamron",
+        "P IF ancreas IF CSF ND 1.2 1.2 P = 0.0087 1.2 P = 0.013 1.2 P = 0.040 1.2 1.2 0.8 0.8 0.8 0.8 0.8 0.8 0.4 0.4 0.4 0.4 0.4 0.4 0 0 0 0 0 0 Asn: \u2013 + \u2013 + Ctrl KO CUA dezilamron SNSA CUA dezi"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09825-y",
+      "title": "Uncovering the role of LINE-1 in the evolution of lung adenocarcinoma",
+      "issue": "8100",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ionnaire, imaging and exposure data FC = 1.24, FDR-adjusted P = 2.33 \u00d7 10\u22123; SBS13: FC = 1.20, FDR-adjusted to identify factors contributing to lung tumorigenesis. Here we focused P = 2",
+        "factors contributing to lung tumorigenesis. Here we focused P = 2.95 \u00d7 10\u22123) and SBS17a/b (unknown aetiology; SBS17a: FC = 1.55, on 542 tumours with sufficient subclonal resolution by d",
+        "ufficient subclonal resolution by deep WGS and FDR-adjusted P = 0.65; SBS17b: FC = 1.91, FDR-adjusted P = 5.37 \u00d7 10\u22123). multi-omics to reconstruct evolutionary timing, identify trajectori"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09828-9",
+      "title": "Agonists for cytosolic bacterial receptor ALPK1 induce antitumour immunity",
+      "issue": "8100",
+      "sample_size_category": "na_or_blank",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "peH-PDA a b c d 1,200 1,200 900 800 600 400 300 0 0 PBS PBS P = 0.0038 NS ADP-Hep (500 \u03bcg) ADP-Hep (20 \u03bcg) NS P = 0.0080 UDSP-Hep (100 \u03bcg) ADP-Hep (100 \u03bcg) P = 0.0008 ADP-Hep (500 \u03bcg) e g",
+        "0 PBS PBS P = 0.0038 NS ADP-Hep (500 \u03bcg) ADP-Hep (20 \u03bcg) NS P = 0.0080 UDSP-Hep (100 \u03bcg) ADP-Hep (100 \u03bcg) P = 0.0008 ADP-Hep (500 \u03bcg) e g NS 2,000 3 NS P = 0.0120 1,500 2 1,000 1 500 0 0",
+        "ep (20 \u03bcg) NS P = 0.0080 UDSP-Hep (100 \u03bcg) ADP-Hep (100 \u03bcg) P = 0.0008 ADP-Hep (500 \u03bcg) e g NS 2,000 3 NS P = 0.0120 1,500 2 1,000 1 500 0 0 WT, PBS P = 0.0016 WT, ADP-Hep NS Alpk1\u2212/\u2212, PB"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09829-8",
+      "title": "Human gut M cells resemble dendritic cells and present gluten antigen",
+      "issue": "8100",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        ".8% SPIB+ GP2+ 21.1% 0.2% 2PAMU b Human intestinal organoid P = 0.0028 104 Ctrl No RANKL P = 0.0016 Stem, TA cell, EEC, Donor: goblet, tuft, Paneth, 103 P < 0.0001 enterocyte, BEST4+ 102",
+        "MU b Human intestinal organoid P = 0.0028 104 Ctrl No RANKL P = 0.0016 Stem, TA cell, EEC, Donor: goblet, tuft, Paneth, 103 P < 0.0001 enterocyte, BEST4+ 102 100 +RANKL 5\u20138 days +TNF +Ret",
+        "0.0016 Stem, TA cell, EEC, Donor: goblet, tuft, Paneth, 103 P < 0.0001 enterocyte, BEST4+ 102 100 +RANKL 5\u20138 days +TNF +Retinoic acid 104 No TNF No RA 103 Enterocyte 102 M cell 100 100102"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09929-5",
+      "title": "Correlates of HIV-1 control after combination immunotherapy",
+      "issue": "8100",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "er in the three Study participants non-controllers but were significantly lower among the seven control- The final study (Fig. 1a) included ten individuals who had initiated ART lers (median viral lo",
+        "efined as <30 point after pausing ART of 651 copies per ml; P = 0.02; Fig. 1d). Of the days, between 1 and 6 months, or \u22656 months after the estimated date six viraemic post-intervention c",
+        "h a relation- study, the slope of the virologic rebound was significantly lower for the ship to study interventions could not be excluded. These abnormalities known prior controllers (estimated popul"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09932-w",
+      "title": "CD8+ T cell stemness precedes post-intervention control of HIV viraemia",
+      "issue": "8100",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "pot; Fig. 1b). A mean of 3.5 (range 1\u20138) HIV 0.3% CFSE-low; P < 0.001; Fig. 2c). Notably, participant 314 had especially epitope-specific CD8+ T cell responses per participant was identif",
+        "ion of de novo CD8+ T cell responses against known remained significantly higher in controller responses than non-control- HLA-optimal HIV epitopes following bNAb administration is not a ler responses",
+        "Extended Data Fig. 1c and Sup- nificantly (median 1.3-fold; P < 0.01 controllers, P < 0.05 non-controllers; plementary Data 1). HIV epitope-specific CD8+ T cells in controllers had Fig. 2"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09824-z",
+      "title": "Erythropoietin receptor on cDC1s dictates immune tolerance",
+      "issue": "8101",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "rism (Fig. 1a,b) or maintain allo-heart grafts (Fig. 1a,c). P = 0.000164; Fig. 1e) in cDC1s following TLI/ATS, and quantitative After combined TLI and ATS (TLI/ATS), total splenic cell nu",
+        "TS Epor-tdT traeh fo tnec reP lavivrus tfarg 100 80 C57BL/6 P = 0.0082 60 40 20 0 0 10 20 30 40 50 60 Days post transplantation TdT-ropE 61.8 15.5 25.7 67.9 22.3 68.7 124VB-\u03b18DC 105 105 1",
+        "DC1s from was performed using unpaired two-tailed Student\u2019s t-test (b,f,j), one-way untreated (UNT) or TLI/ATS-treated mice. d, Enriched GO Biological Processes ANOVA (h), two-way ANOVA"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09866-3",
+      "title": "Causal modelling of gene effects from regulators to programs to traits",
+      "issue": "8101",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "oF variants1 identi- fied 90 genes associated with MCH at a false discovery rate (FDR) = 0.1 Pathway enrichment for trait associations (Fig. 2b). Although the rankings of top hits differ between GWAS",
+        "frequently prioritize Many of the lead hits fall into a few significantly enriched pathways, different genes41,42. including haem metabolism, haematopoiesis and cell cycle (Fig. 2a,c). As one might ex",
+        "e gene-regulatory network. Previous studies did show highly significant correlations of regulatory effects with using perturbations to interpret GWAS have identified enrichment of \u03b3 (Extended Data Fig"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09884-1",
+      "title": "Human assembloids recapitulate periportal liver tissue in vitro",
+      "issue": "8101",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "1) Broutier et al., 2017 (list 2) Hu et al., 2018 (list 3) P = 0.0038 P = 0.0033 8 P = 0.0061 4 6 P = 0.0030 MM | | Donor 2 DSD43 | PHH29 | 0.5 MM + WntS | | DSD40 F-PHH3 PHH27 0.4 MM +",
+        "r et al., 2017 (list 2) Hu et al., 2018 (list 3) P = 0.0038 P = 0.0033 8 P = 0.0061 4 6 P = 0.0030 MM | | Donor 2 DSD43 | PHH29 | 0.5 MM + WntS | | DSD40 F-PHH3 PHH27 0.4 MM + TRULI | | |",
+        "7 (list 2) Hu et al., 2018 (list 3) P = 0.0038 P = 0.0033 8 P = 0.0061 4 6 P = 0.0030 MM | | Donor 2 DSD43 | PHH29 | 0.5 MM + WntS | | DSD40 F-PHH3 PHH27 0.4 MM + TRULI | | | | P D H SD H"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09888-x",
+      "title": "Plastic landmark anchoring in zebrafish compass neurons",
+      "issue": "8102",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "cells appeared to track amplitude and bump-phase shift was statistically significant across the scene orientation well in both jump and noise epochs (see also the population (Extended Data Fig. 3f). Overa",
+        "0.4 0.2 0 0 Scene\u2013bump offset (rad) ytisneD Jump \uf06b = 3.05, P = 0.03 Noise \uf06b = 1.17, P = 0.10 0.5 0 \u20130.5 Fish (sorted by noise local correlation) noitalerroc lacoL a b c d Angular head ve",
+        "ffset (rad) ytisneD Jump \uf06b = 3.05, P = 0.03 Noise \uf06b = 1.17, P = 0.10 0.5 0 \u20130.5 Fish (sorted by noise local correlation) noitalerroc lacoL a b c d Angular head velocity cell Visual cells"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "4i. The distribution of the p-values was significantly non-uniform based on the control experiment. No significant increase was detected (sign-rank test). a Kolmogorov-Smirnov test (p = 2.5 \u00d7 10\u221211; N = 25 fish). For (d, e), the bars and N = 20 fish. (e) Increase in the fraction of time that the offset spent in the error bars respectively indicate means across fish and t"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09899-8",
+      "title": "Stress controls heterochromatin inheritance via histone H3 ubiquitylation",
+      "issue": "8102",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "region (kb) Silent mat region (kb) tnemhcirne dlof 1PH6iwS P < 0.0001 P < 0.0001 P < 0.0001 Fig. 1 | Loss of NMD components rescues heterochromatin spreading defects. were plated on non-",
+        ") Silent mat region (kb) tnemhcirne dlof 1PH6iwS P < 0.0001 P < 0.0001 P < 0.0001 Fig. 1 | Loss of NMD components rescues heterochromatin spreading defects. were plated on non-selective,",
+        "t region (kb) tnemhcirne dlof 1PH6iwS P < 0.0001 P < 0.0001 P < 0.0001 Fig. 1 | Loss of NMD components rescues heterochromatin spreading defects. were plated on non-selective, uracil-defi"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09903-1",
+      "title": "Intratumoural vaccination via checkpoint degradation-coupled antigen presentation",
+      "issue": "8102",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "y 2026 Intratumoural targeting j hPD-L1endo/MC38 1.5 \u00d7 1010 P < 0.0001 PD-L1-humanized C57BL/6J 0 AF647-labelled 1 \u00d7 1010 1 2 drug injection 6 24 5 \u00d7 109 48 Live-mouse imaging 72 0 h 0 20",
+        "GS VVCCiittS I I N F E K L D3 GGGS VCitGGS I I N F E K L D4 P = 0.0005 300 200 100 0 C B P la P n \u2013 k OVAp G e l p u G e lu B e o B d o y d 2 y2\u2013CPP D1 D iV 2 AC D3 D4 fo IFM evitaleR )%(",
+        "I-APC C\u00b0 4 PD-L1\u2013FITC C\u00b0 73 c Drug treatment HBSS control d P < 0.0001 P < 0.0001 Baseli N ne o inhibi C to h r loroquine MG1 E 3 R 2 AP-1-IN B -1 refeldin A ruomut ni egnahc dloF I-CHM\u2013p"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09923-x",
+      "title": "Disease tolerance and infection pathogenesis age-related tradeoffs in mice",
+      "issue": "8102",
+      "sample_size_category": "na_or_blank",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "estion in kidney medulla (asterisks). Some aged lungs, have t-test (p). Number of biologically independent mice shown in each panel. Scale perivascular and peribronchiolar lymphoid aggre",
+        "they experienced liver damage (Fig. 1g\u2013j). Young survivors significantly higher in the young dying mice compared with the aged were protected from cardiomegaly, oedema and leucocyte infiltration, dyi",
+        "t histological age groups (Fig. 1m). changes in oedema or a significant increase in leucocyte infiltration Our gross examination of organs and histopathology analyses, (Fig. 1n\u2013p, Extended Data Fig. 4"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09940-w",
+      "title": "A nowhere-to-hide mechanism ensures complete piRNA-directed DNA methylation",
+      "issue": "8102",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "Nature | Vol 650 | 19 February 2026 | 781 5.61E +/AH1dcopS P < 0.05 Enrichment log(LFQ(bait):LFQ(control)) 2 Merge: Merge: TPR TPR TPR (high exposure) DAPI TPR HA (SPOCD1) SPOCD1 high ex",
+        "ait):LFQ(control)) 2 dlofruof > tnemhcirnE SPOCD1 SPIN1 TPR P < 0.05 P < 0.05 dlofruof > tnemhcirnE IP: SPOCD1\u2013HA 1 1028 6 TFIIS-M SPOCHA 4 Pfkm 2 Zc2hc1a P < 0.05 0 \u22122.5 0 2.5 5.0 7.5 dl",
+        "control)) 2 dlofruof > tnemhcirnE SPOCD1 SPIN1 TPR P < 0.05 P < 0.05 dlofruof > tnemhcirnE IP: SPOCD1\u2013HA 1 1028 6 TFIIS-M SPOCHA 4 Pfkm 2 Zc2hc1a P < 0.05 0 \u22122.5 0 2.5 5.0 7.5 dlofruof >"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09978-w",
+      "title": "Oxygen-free metabolism in the bird inner retina supported by the pecten",
+      "issue": "8102",
+      "sample_size_category": "no_justification",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "f the choroid (6.2 nmol min\u22121, s.d. = 2.2, n = 11; t = 9.0, P < 0.001, paired fatty acids had low expression scores in the anoxic inner retina com- 10 t-test), contributing only 0.76% (s.",
+        "ad low expression scores in the anoxic inner retina com- 10 t-test), contributing only 0.76% (s.d. = 0.75, n = 11) of the total retinal pared with the oxygenated outer retina (Fig. 2c,d)",
+        "from the choroid compared with modelled retinal p (F = 752, P < 0.001, adjusted R2 (R2 ) = 0.44, O2 1,940 adj the gradient from the vitreous humour (Fig. 1c). To test whether inner linear"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09881-4",
+      "title": "Genetic switch between unicellularity and multicellularity in marine yeasts",
+      "issue": "8103",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "Fisher\u2019s exact tests. From left to right, P < 2.2 \u00d7 10\u221216, P = 1.8 \u00d7 10\u221213 and extract (YE, 20 g l\u22121; e) switches the division mode. At high cell density, budding P < 2.2 \u00d7 10\u221216; ****",
+        "on mode. At high cell density, budding P < 2.2 \u00d7 10\u221216; ****P < 0.0001. and unicellular proliferation occur in all media (c\u2013e, right images). The magenta We hypothesized that nutritional",
+        "n HwMyb1 acts as a switch-like regulator (GO:0048315), were significantly enriched (P < 0.05) but less strongly than cell-wall-related terms (Supplementary Table 3). We next examined The myb1\u0394 phenoty"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09896-x",
+      "title": "Mitochondrial transfer from glia to neurons protects against\u00a0peripheral neuropathy",
+      "issue": "8103",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "s to neurons in the DRG of and contralateral DRG (n = 4). **P = 0.002. g, Diagram of SNI surgery with MitoTag mice. a, Diagram of Aldh1l1-creERT2:MitoTag mice with timeline of Tam ipsilat",
+        "and jRGECO1a+ neurons. and Tam with CFA (5 days, n = 4). **P = 0.0034. d, Diagram of SNI surgery in Data are mean \u00b1 s.e.m. One-way ANOVA followed by Tukey\u2019s multiple Aldh1l1-creERT2:Mito",
+        "contralateral and comparisons test (c); two-sided unpaired t-test (f,i,m). ****P < 0.0001, ipsilateral DRG. f, The percentage of MitoTag+ neurons in ipsilateral DRG (n = 4) ***P < 0.001"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09906-y",
+      "title": "Oral 4\u2032-fluorouridine rescues nonhuman primates from advanced Lassa fever",
+      "issue": "8103",
+      "sample_size_category": "na_or_blank",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "y diverse LASV isolates, MTD = 10.8 \u00b1 1.2 DPI). There was a significant difference in the survival including the apparently most pathogenic lineage VII variants such as curves between the 4\u2032-FIU-treated",
+        "hown to have antiviral activity positive controls (Fig. 2a, P = 0.002, Mantel\u2013Cox log-rank test). All against several genetically distinct LASV strains and, notably, the lowest 4\u2032-FIU-tre",
+        "AGMs succumbed to Lassa fever on model (C1\u2013C5). There were significant differences in the peak load of 9, 10, 11, 11 and 13 days post-infection (DPI), respectively (mean time to circulating LASV RNA in"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09907-x",
+      "title": "Bidirectional CRISPR screens decode a GLIS3-dependent fibrotic cell circuit",
+      "issue": "8103",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "hips and their associations Across IBD samples, we observed significant changes in cell type with distinct histopathological features, we applied Xenium-based abundance within defined intestinal com",
+        "s proportion abundance across niches. Chi-squared test with P < 0.05 as the represent quartiles, with medians as the centre and whiskers the 10\u201390% range. significance threshold. g, Left,",
+        "s on the same tissue with smooth muscle cells as reference (false discovery rate (FDR) < 20%) section, showing dense distribution in niche N1. h, Haematoxylin and eosin (Methods). Numbers of samples f"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09943-7",
+      "title": "CFAP20 salvages arrested RNAPII from the path of co-directional replisomes",
+      "issue": "8103",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "with curvature defects, Significance by unpaired two-tailed t-test. P = 0.0131. i, Genome-wide CRISPR either uninjected or rescued by 25 pg human CFAP20 mRNA (WT or R100C). screen in CFA",
+        "vature defects, Significance by unpaired two-tailed t-test. P = 0.0131. i, Genome-wide CRISPR either uninjected or rescued by 25 pg human CFAP20 mRNA (WT or R100C). screen in CFAP20-KO ce",
+        "h CFAP20. j, Colony formation assay for the exact test. ****P < 0.0001. c, Quantification of competition assays between the indicated cell lines. k, Quantification of sister fork symmetry"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "epresents the median of an independent experiment (>100 fibres). bins with the earliest timing show no significant difference between WT and The black lines represent the mean of all independent experiments. Statistical CFAP20-KO (adjusted p-values: positive DRIP = 0.175; negative DRIP = 0.223, significance between WT and the indicated conditions and CFAP20-KO cells pairwi"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09963-3",
+      "title": "Ligand-specific activation trajectories dictate GPCR signalling in cells",
+      "issue": "8103",
+      "sample_size_category": "na_or_blank",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "apparent on-rates for the vast majority of agonists oA in a significant increase in fluorescence emission at MR181 (Fig. 3d) and and biosensors (Extended Data Fig. 9 and Supplementary Table 3). Thus,",
+        "ine-stimulated 2 biosensor induced by ACh and arecoline and significantly decreased the conformational changes revealed two groups of MR biosensors, which 2 pilocarpine-promoted effect (Extended Data Fi",
+        "ecifically, iperoxo stabilizes the high-efficacy complex C1 significant activation of G\u03b1 was observed (Fig. 5b\u2013e). to a greater extent than ACh (Figs. 2 and 4). However, and in contrast 15 1060 | Nat"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09987-9",
+      "title": "Ageing promotes microglial accumulation of slow-degrading synaptic proteins",
+      "issue": "8103",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "P[01gol\u2013 ]P[01gol\u2013 10 8 6 4 2 0 ]P[01gol\u2013 Pull down = 3,787 P < 0.05; log2[FC] > 1 Pull down = 2,320 P < 0.05; log 2[FC] > 1 Component 1 (81.0%) 0 2 4 6 8 log2[Cam;MetRS*/WT] Pull down =",
+        "Pull down = 3,787 P < 0.05; log2[FC] > 1 Pull down = 2,320 P < 0.05; log 2[FC] > 1 Component 1 (81.0%) 0 2 4 6 8 log2[Cam;MetRS*/WT] Pull down = 4 P < 0.05; log2[FC] > 1 0 2 4 6 8 log2[C",
+        "onent 1 (81.0%) 0 2 4 6 8 log2[Cam;MetRS*/WT] Pull down = 4 P < 0.05; log2[FC] > 1 0 2 4 6 8 log2[Cam;TyrRS*/WT] )%2.71( 2 tnenopmoC g h Cam;MetRS* Cam;PheRS* Cam;TyrRS* 4 1,824 1,959 361"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10001-5",
+      "title": "Environmentally driven immune imprinting protects against allergy",
+      "issue": "8103",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "tive ELISpot images of IFN\u03b3+ splenocytes unpaired Student\u2019s t-test (a,h) or one-way ANOVA with Tukey correction for from the indicated sources incubated without antigen or with cOVA or m",
+        "70. b,c, Maximal temperature Two-tailed unpaired Student\u2019s t-test (b,c) or one-way ANOVA with Tukey decrease following cOVA challenge (b) and cOVA-reactive serum antibodies of correctio",
+        "ental scheme soy-free: n = 8. Two-tailed unpaired Student\u2019s t-test (c\u2013j,m\u2013s). Error bars for generating cohorts and measuring the effect of legume cross-tolerance. represent s.d. (c\u2013j,m\u2013"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10028-8",
+      "title": "Tumour\u2013brain crosstalk restrains cancer immunity via a sensory\u2013sympathetic axis",
+      "issue": "8103",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "through genetic, pharmacological or chemogenetic approaches significantly inhibited lung tumour growth by enhancing immune responses against cancer. Collectively, these results reveal a bidirectional t",
+        "RNA-seq. Cells were isolated from alveolar regions (n = 5). P = 0.0409. Scale bar, 300 \u03bcm. c, Experimental scheme, the vagal nodose ganglia of healthy mice or littermates transplanted wit",
+        "ers. h, UMAP plots displaying the alveolar regions (n = 4). P = 0.0138. Scale bar, 200 \u03bcm. d, Experimental scheme, cumulative fold change of differentially expressed genes (DEGs) in each"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09902-2",
+      "title": "Prefrontal neural geometry of learned cues guides motivated behaviours",
+      "issue": "8104",
+      "sample_size_category": "na_or_blank",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ural framework and task used to evaluate salience, valence (P = 0.96; CSn and ITI, P = 0.86; one-way repeated-measures analysis of variance and value coding. a, Aversive-associated outcom",
+        "used to evaluate salience, valence (P = 0.96; CSn and ITI, P = 0.86; one-way repeated-measures analysis of variance and value coding. a, Aversive-associated outcomes prompt avoidance, an",
+        "Aversive-associated outcomes prompt avoidance, and (ANOVA) F(4,45) = 81.83; Tukey corrected). Grey lines denote individual mice. appetitive outcomes elicit approach, with response pr"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "ing CSs and CSr displayed sented and decoded from dmPFC activity, we followed a multiclass reduced, nonsignificant performance (Fig. 3c, right). Thus, these results regression approach (Methods). indicate that valence and salience information lie within independent First, we modelled salience by a ridge linear regression of average coding axes. Accordingly, a lo"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09913-z",
+      "title": "Microbiota-induced T cell plasticity enables immune-mediated tumour control",
+      "issue": "8104",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "t of anti-tumour immunity prompted ELISpot assays confirmed significant enrichment of IFN\u03b3-producing further investigation into the underlying mechanisms by which SFB CD4+ TILs in SFB+ B16-3340 tumo",
+        "vals (days 8\u201312, 12\u201316 or 15\u201319) or left SFB-free. tained a significantly higher fraction of tetramer\u2212 CD4+ T cells that Early gavage (days 8\u201312, group 1) produced the largest reduction in produced mo",
+        "B\u2013) Rechallenge B16-3340 (SFB+) n = 10 n = 10 n = 10 n = 10 P = 0.0001 B16-3340 + \u03b1-PD-1 (SFB\u2013) B16-3340 + \u03b1-PD-1 (SFB+) 1.0 P = 0.0003 With \u03b1-PD-1 Without \u03b1-PD-1 0.8 0.6 n = 7 n = 7 0.4"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09964-2",
+      "title": "Common variation in meiosis genes shapes human recombination and aneuploidy",
+      "issue": "8104",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "sidrepnaeM Data Maternal Model Paternal Maternal Paternal f P = 4.64 \u00d7 10\u2013150 P = 0.65 Paternal Maternal Fig. 1 | Data from PGT of IVF embryos offer insight into crossover with maternal",
+        "ternal Model Paternal Maternal Paternal f P = 4.64 \u00d7 10\u2013150 P = 0.65 Paternal Maternal Fig. 1 | Data from PGT of IVF embryos offer insight into crossover with maternal age, whereas aneupl",
+        "nent hits included the synaptonemal complex component 10\u22123, P = 1.29 \u00d7 10\u22125). Despite the statistical power afforded by the large C14orf39 (also known as SIX6OS1)27 and crossover-regula"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09983-z",
+      "title": "Baby-to-baby strain transmission shapes the developing gut microbiome",
+      "issue": "8104",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "n 4 com- significant (Mann\u2013Whitney U-test, n = 37, U = 137, P = 0.68 and n = 37, putational tool16 to generate taxonomic profiles at species-level U = 109, P = 0.89, respectively; Extende",
+        "16 to generate taxonomic profiles at species-level U = 109, P = 0.89, respectively; Extended Data Fig. 5a\u2013d). genome bin (SGB)17 resolution (Supplementary Table 4 and Extended Some compos",
+        "6,18 to generate strain-level phylogenies (n = 40, U = 271, P = 0.012; Fig. 1c and Supplementary Table 6), further for 311 known SGBs and 201 unknown SGBs that were used to infer supporti"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "er signed-rank test evaluating longitudinal SSR for paired baby\u2013baby pairs pairwise comparisons are non significant. In the box plots c\u2013e, box edges show attending the same nursery). Article 0.8 0.6 0.4 0.2 0 10 5 0 Father Mother 196 | Nature | Vol 651 | 5 March 2026 etar gnirahs-niartS T01 parent\u2013baby sniarts egarevA sniarts egarevA derahs derahs sniarts egarevA",
+        "diversity represented as species-level genome bin (SGB) richness All other pairwise comparisons are non significant. divided by participant type. In box plots, box edges indicate the lower and Article Extended Data Fig. 2 | Most abundant species-level genome bins (SGBs) in babies and adults at baseline. Heatmap shows SGBs with prevalence \u226530% at 0.1% relative abu",
+        "r grey (negative) based on strain identification according to comparison. All other comparisons are non significant. e, Average number StrainPhlAn (Fig. 2a). Genomic DNA from A. muciniphila ATCC BAA-835 is shared strains between pet and human across contemporaneous samples, in included as a positive control, alongside a NTC. (c) Phylogenetic tree of different vs",
+        "up and a random different group from sided Mann-Whitney U tests. All other pairwise comparisons are non significant. another nursery (as a control) at T01 and T15. (f) Relative abundance (ra) of In box plots (b, e-f), box edges indicate the lower and upper quartiles, the center strains acquired from either family, nursery group and both, at T01 and T15. line repr",
+        "ther timepoints P-values refer to two-sided Wilcoxon signed-rank tests. (i) Strain-sharing rate are non significant. In all box plots (a-f, i-j), box edges indicate the lower and between babies and other family members at T01. (j) Average number of strains upper quartiles, the center line represents the median, and whiskers expand shared between pairs of babies a"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09984-y",
+      "title": "Intestinal macrophages modulate synucleinopathy along the gut\u2013brain axis",
+      "issue": "8104",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "1R with anti-CCR2 into the ME, targeting ME-Macs, nificant (P \u2264 0.05) differential expression of 474 proteins using mass ameliorated \u03b1S pathology in both the ENS and CNS, abolished T cell",
+        "). Notably, lysates from separated duodenal ME demonstrated significantly increased s129p+ isolated ME-Macs of 3-month 3KL demonstrated accelerated aggrega- \u03b1S surrounding HuC/D+ myenteric ganglia, a sp",
+        "Vol 651 | 5 March 2026 | 175 Article bIII-Tub bIII-Tub 300 P < 0.0001 s129p s129p HuC/D HuC/D 200 ROI selection 100 Digital spatial profiling bIII-Tub bIII-Tub s129p s129p HuC/D 0 0.50 1"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09985-x",
+      "title": "Critical role for a high-plasticity cell state in lung cancer",
+      "issue": "8104",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "sitions between and adenocarcinomas translated into robust, statistically significant the early neoplastic, alveolar-like cell states and the progressed, increases in phenotypic volume, a quantitative meas",
+        "mScarlet mScarlet+GFP+ cells (%) 0 20 40 60 80 100 \u03b12+ \u03b12\u2013 P < 0.0001 P < 0.0001 P = 0.0045 P = 0.0207 7yC-CPA-2\u03b1 nirgetnI KrasG12D/+;Trp53\u2206/\u2206 ;Hipp11GGCB/+;Slc4a11MCD/+ 22.2% 14.2% 104",
+        "Scarlet+GFP+ cells (%) 0 20 40 60 80 100 \u03b12+ \u03b12\u2013 P < 0.0001 P < 0.0001 P = 0.0045 P = 0.0207 7yC-CPA-2\u03b1 nirgetnI KrasG12D/+;Trp53\u2206/\u2206 ;Hipp11GGCB/+;Slc4a11MCD/+ 22.2% 14.2% 104 103 0 \u2013103"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10055-5",
+      "title": "Rete ridges form via evolutionarily distinct mechanisms in mammalian skin",
+      "issue": "8104",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "sity from across the adjusted coefficient of determination, P = 2.407 \u00d7 10\u221211. e, LEF1 is broadly Mammalia. c, Rete ridges drive epidermal thickening in mammalian skin. expressed in fet",
+        "ology scale bars, 100 \u03bcm (a,e,f); scale letters indicate no significant difference (P > 0.05), and different letters indicate bar, 1 mm (b); littermate scale bar, 1 cm (f). DC, dermal condensate. Photog",
+        "(a,e,f); scale letters indicate no significant difference (P > 0.05), and different letters indicate bar, 1 mm (b); littermate scale bar, 1 cm (f). DC, dermal condensate. Photograph sign"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "ed (bottom, n = 3) female littermates. Histology scale bars, 100 \u03bcm (a,e,f); scale letters indicate no significant difference (P > 0.05), and different letters indicate bar, 1 mm (b); littermate scale bar, 1 cm (f). DC, dermal condensate. Photograph significant difference (P < 0.05) according to one-way analysis of variance plus in b was reproduced with permission from Tan"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09926-8",
+      "title": "The ubiquitin ligase KLHL6 drives resistance to CD8+ T cell dysfunction",
+      "issue": "8105",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "(g). The CRISPR enrichment scores comparisons test (h,i). *P < 0.05, ***P < 0.001 and ****P < 0.0001. (log fold change of PD-1+TIM-3+ versus PD-1\u2212TIM-3\u2212 or (MTDR/MTG)lo versus 2 Data Fig",
+        "SPR enrichment scores comparisons test (h,i). *P < 0.05, ***P < 0.001 and ****P < 0.0001. (log fold change of PD-1+TIM-3+ versus PD-1\u2212TIM-3\u2212 or (MTDR/MTG)lo versus 2 Data Fig. 1b,c and Su",
+        "res comparisons test (h,i). *P < 0.05, ***P < 0.001 and ****P < 0.0001. (log fold change of PD-1+TIM-3+ versus PD-1\u2212TIM-3\u2212 or (MTDR/MTG)lo versus 2 Data Fig. 1b,c and Supplementary Table"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09958-0",
+      "title": "Predictive coding of reward in the hippocampus",
+      "issue": "8105",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "20 40 60 80 100 Time (s) 0.4 0.6 0 0.4 \u20130.4 0.2 r = \u20130.8296 P = 1.8 \u00d7 10\u20136 \u20130.8 0 naeM deepS slleC F/F\u0394 )1\u2013s mc( a d Cell 1 Cell 2 b c r = \u20130.13 0.3 P = 0.57 0.2 0.1 0 e f g slairT 0.5",
+        "epS slleC F/F\u0394 )1\u2013s mc( a d Cell 1 Cell 2 b c r = \u20130.13 0.3 P = 0.57 0.2 0.1 0 e f g slairT 0.5 s 0.5 s 0.3 0.2 0.1 0 0.5 s 0.5 s F/F\u0394 naeM xaM niM xaM niM Left Right Left Right 48 20 46",
+        "20 0.4 0.6 0.8 Session (day) Performance * r = \u20130.52 20 20 P = 0.0096 15 15 10 10 r = \u20130.15 P = 0.48 5 5 0 10 20 0.4 0.6 0.8 Session (day) Performance noitalerroC ecnairav denialpxE S P"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        ". k\u2013n, The same analysis as in g\u2013j is repeated for reward between reward MI and session number, and no significant correlation with MI instead of the percentage of reward cells. These results similarly show that performance. These patterns are consistent across both groups: the full dataset reward MI decreases over sessions and is weakly influenced by behaviour (m,n: and th"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-025-09994-w",
+      "title": "Identification of an allosteric site on the E3 ligase adapter cereblon",
+      "issue": "8105",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ls after 18 h biologically independent samples. P-values by t-test (background) method. incubation with 10 nM DEG-47 and 10 \u00b5M SB-405483 versus MOLM-13 cells For uncropped Western blot i",
+        "lysis of MOLM-13 cells pretreated comparisons test with * = p < 0.05, ** = p < 0.01, *** = p < 0.001, **** = p < 0.0001. with DMSO, MG132, or MLN4924 for 1 h, and then treated with DEG-47",
+        "3 cells pretreated comparisons test with * = p < 0.05, ** = p < 0.01, *** = p < 0.001, **** = p < 0.0001. with DMSO, MG132, or MLN4924 for 1 h, and then treated with DEG-47 in the All Wes"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09996-8",
+      "title": "Pyramidal neurons proportionately alter cortical interneuron subtypes",
+      "issue": "8105",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ative MERFISH spatial map of coronal brain significant (NS) P \u2265 0.05, *P < 0.05, **P < 0.01 and ***P < 0.001. Exact sample sections (P56 mouse) from published datasets13, illustrating the",
+        "SH spatial map of coronal brain significant (NS) P \u2265 0.05, *P < 0.05, **P < 0.01 and ***P < 0.001. Exact sample sections (P56 mouse) from published datasets13, illustrating the distributi",
+        "ap of coronal brain significant (NS) P \u2265 0.05, *P < 0.05, **P < 0.01 and ***P < 0.001. Exact sample sections (P56 mouse) from published datasets13, illustrating the distribution genotypes"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10006-0",
+      "title": "Construction of complex and diverse DNA sequences using DNA three-way junctions",
+      "issue": "8105",
+      "sample_size_category": "na_or_blank",
+      "full_text_available": true,
+      "nhst_used": false,
+      "nhst_source": "none",
+      "nhst_evidence_snippets": [],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10011-3",
+      "title": "PAF15\u2013PCNA exhaustion governs the strand-specific control of DNA replication",
+      "issue": "8105",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "RPA1 32 kDa RPA2 15 kDa Histone H3 15 kDa Ponceau S c d e f P < 0.0001 P < 0.0001 P < 0.0001 Parental Parental DMSO ATRi g G1 S G2 G1 S G2 G1 S G2 G1 S G2 )tnuoc egareva( icof 15DAR PARPi",
+        "RPA2 15 kDa Histone H3 15 kDa Ponceau S c d e f P < 0.0001 P < 0.0001 P < 0.0001 Parental Parental DMSO ATRi g G1 S G2 G1 S G2 G1 S G2 G1 S G2 )tnuoc egareva( icof 15DAR PARPi S1 nucleas",
+        "a Histone H3 15 kDa Ponceau S c d e f P < 0.0001 P < 0.0001 P < 0.0001 Parental Parental DMSO ATRi g G1 S G2 G1 S G2 G1 S G2 G1 S G2 )tnuoc egareva( icof 15DAR PARPi S1 nuclease Parental"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10040-y",
+      "title": "Systematic analyses of lipid mobilization by human lipid transfer proteins",
+      "issue": "8105",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "assembled in cellulo or in vitro (counting the redundancy (P = 0.252) (Fig. 1b). Out of the 756 LTP\u2013lipid pairs analysed (277 previ- of the two screens) by affinity and size-exclusion ch",
+        "(Supplementary Methods). To comparable to those in cellulo (P = 0.132) (Extended Data Fig. 2c,d). filter out non-specific background, we matched LTP abundance in SEC For the functional be",
+        "dance lipids, which is unlikely to respective LTP, which is significantly higher than what is observed when come from non-specific contamination of the total lipidome, provides all possible LTP\u2013lipid"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09965-1",
+      "title": "Polyamine-dependent metabolic shielding regulates alternative splicing",
+      "issue": "8106",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ycline (Dox). n = 4 independent biological replicates. 10%, P < 0.1) of exonic events in DU145 cells treated with shAMD1 and induced b, Bi-dimensional density plot showing the effect of A",
+        "and in skeletal muscle of wild-type mice (Abs(\u0394PSI) > 10%, P < 0.1). m,n, Principal cellular component. NCC, nucleobase-containing compound. e, z-scored components analysis (m) and z-sco",
+        "endent mice). CD, control diet. One-tailed paired Student\u2019s t-test (a); (Abs(\u0394PSI) > 10%, P < 0.1). f, Validation of top alternative splicing events, shown one-tailed one-sample t-test ("
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09972-2",
+      "title": "The transition from monocyte to tissue-resident macrophage requires DHPS",
+      "issue": "8106",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "crophage markers (Adgre1, Csf1r, H2-Ab1, Cd68, Lyz2, Itgam, significant differences between DHPS-deficient and control mac- Mertk). Initial analysis revealed differential clustering between geno- rophag",
+        "ults support a requirement for enrichment analysis revealed significant decreases in metabolism, DHPS for macrophages to differentiate into mature RTMs across cell adhesion and integrin-mediated signa",
+        "erin (l1cam and Cdh1, respectively) were downregulated were significantly decreased on ribosomes in DHPS-deficient mac- in the analysis of DHPS-deficient macrophages isolated from three rophages compare"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-09997-7",
+      "title": "Dissecting gene regulatory networks governing human cortical cell fate",
+      "issue": "8106",
+      "sample_size_category": "no_justification",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "March 2026 noitcarf lleC g1 g4 g2 g5 g3 g6 150 Significance P < 0.05 100 50 0 )%( TN ot noisserpxE XRA 1LCSA 7FTA 22EHLHB FCTC 1FAED 1F2E 1XME SOF NUJ 7TAK 01FLK 11FLK 3FLK C2FEM 2SIEM 2D",
+        "|estimated coefficient| in cell abundance (x axis) denotes odds ratio; colour denotes \u2212log [P]. f, Line plot showing odds ratio of 10 and number of DEGs (y axis) across seven main cell type",
+        "s odds ratio; colour denotes \u2212log [P]. f, Line plot showing odds ratio of 10 and number of DEGs (y axis) across seven main cell types in the EN and IN disease-associated gene enrichment in D"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10003-3",
+      "title": "Convergent evolution of scavenger cell development at brain borders",
+      "issue": "8106",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "nd i\u2032\u2032). Co-expression confirmed in more than ten (adjusted P < 0.05 and absolute log[FC] > 1) and purple genes of interest. animals. AEC, arterial EC; imVEC immature VEC; MV, mesencephal",
+        "s differentiation and maintenance of muLECs. (ECs, adjusted P < 0.05 and absolute log[FC] > 0.5, i) and volcano plot for 2 a,a\u2032, muLECs (Tg(\u22125.2lyve1b:DsRed)nz101) of sibling (upper) and",
+        "uLEC DEGs (n = 82 (55 up, 27 down, j). Pink, DEGs (adjusted P < 0.05 and at 30-dpf right midbrain (a) and mesencephalic vein (a\u2032). b,c, Average muLEC absolute log[FC] > 0.5). Purple, gene"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10047-5",
+      "title": "Developmental convergence and divergence in human stem cell models of autism",
+      "issue": "8106",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ectual disability and ASD log fold change (logFC) of \u22120.77, false discovery rate (FDR) of 0.45; phenotypes with the reciprocal deletion57 (n = 4); (6) Timothy syn- CACNA1C: logFC = \u22120.22, FDR = 0.78),",
+        "mothy syndrome 25 50 75 100 Day The intersecting genes were significantly enriched for chromatin remod- downregulated at 25 days in these four forms of ASD were enriched for elling related terms (Fig.",
+        "been associated with ASD risk genes8,24,73. Overall, genes odds ratio (OR) 3.0, FDR = 3.8 \u00d7 10\u22129; 16p11.2dup: SFARI genes OR = 3.3, 710 | Nature | Vol 651 | 19 March 2026 mroF Idiopathic 25"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10050-w",
+      "title": "Sleep-dependent clearance of brain lipids by peripheral blood cells",
+      "issue": "8106",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "re next to PG cells (R85G01-LexA, green) (top) or SPG glial P > 0.01); *P < 0.1; **P < 0.01; ***P < 0.001; ****P < 0.0001. n represents biologically cell (R54C07-LexA, green) (bottom). Co",
+        "G cells (R85G01-LexA, green) (top) or SPG glial P > 0.01); *P < 0.1; **P < 0.01; ***P < 0.001; ****P < 0.0001. n represents biologically cell (R54C07-LexA, green) (bottom). Cortex glia (C",
+        "5G01-LexA, green) (top) or SPG glial P > 0.01); *P < 0.1; **P < 0.01; ***P < 0.001; ****P < 0.0001. n represents biologically cell (R54C07-LexA, green) (bottom). Cortex glia (CG) are visu"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-025-10052-8",
+      "title": "GlycoRNA complexed with heparan sulfate regulates VEGF-A signalling",
+      "issue": "8106",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ween nearest neighbours (\u03bcm) ytisneD 1.0 0.5 0 10\u20131 100 101 P = 0.00 P 9 = 0.11 P 4 = 7.672 \u00d7 10\u201333 Fig. 1 | See next page for caption. Fig. 1 | csRNA and RBP clusters are dependent on HS",
+        "A121 Normal Starvation Normal Starvation Anti-pERK Anti-ERK P = 0.0181 P = 0.0057 Normal 4 Starvation +3 ng ml\u20131 +RNase 2 0 HUVEC, 4-h starvation +25 ng ml\u20131 VEGF-A165 +25 ng ml\u20131 VEGF-A1",
+        "Starvation Normal Starvation Anti-pERK Anti-ERK P = 0.0181 P = 0.0057 Normal 4 Starvation +3 ng ml\u20131 +RNase 2 0 HUVEC, 4-h starvation +25 ng ml\u20131 VEGF-A165 +25 ng ml\u20131 VEGF-A121 VEGF-A16"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10110-9",
+      "title": "Reduced cyclin D3 expression in erythroid cells protects against malaria",
+      "issue": "8106",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "okinase (PFK1) and pyruvate kinase M2 (PKM2)3. Conse- HbA2 (P = 4.03 \u00d7 10\u221222, \u03b2 = +0.31), MCV (P = 3.77 \u00d7 10\u221229, \u03b2 = +0.36) and quently, glucose-derived carbon is shunted into the pento",
+        "M2 (PKM2)3. Conse- HbA2 (P = 4.03 \u00d7 10\u221222, \u03b2 = +0.31), MCV (P = 3.77 \u00d7 10\u221229, \u03b2 = +0.36) and quently, glucose-derived carbon is shunted into the pentose phosphate MCH (P = 2.48 \u00d7 10\u221224,",
+        "e-derived carbon is shunted into the pentose phosphate MCH (P = 2.48 \u00d7 10\u221224, \u03b2 = +0.32), and decreased RBC count (P = 1.18 \u00d7 10\u221216, and serine pathways, leading to increased formation"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10179-2",
+      "title": "Insulin resistance prediction from wearables and routine blood biomarkers",
+      "issue": "",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "(IRB) no. Pro00074093). The study was conducted (r = 0.57, P < 0.001), BMI (r = 0.43, P < 0.001; Supplementary Fig. 4), remotely using the Google Health Studies (GHS) application (Method",
+        "e study was conducted (r = 0.57, P < 0.001), BMI (r = 0.43, P < 0.001; Supplementary Fig. 4), remotely using the Google Health Studies (GHS) application (Methods). HbA1c (r = 0.45, P < 0.",
+        "ealth Studies (GHS) application (Methods). HbA1c (r = 0.45, P < 0.001), triglycerides (r = 0.40, P = < 0.001; Fig. 1g) In this instance, GHS was configured to enable the collection of dat"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10219-x",
+      "title": "Functional hierarchy of the human neocortex across the lifespan",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "fancy and childhood, peaks at 13.8 years (95% architecture. confidence interval 11.3\u201316.3), remains relatively stable into early adult- hood and declines steadily thereafter, consistent with reduced",
+        "nt magnitude. Template similarity increased 18.8 years, 95% confidence interval 15.0\u201320.8; MR: 19.0 years, 95% from birth through adolescence, reaching maxima in the expected confidence interval 15.5",
+        "birth through adolescence, reaching maxima in the expected confidence interval 15.5\u201321.3), followed by relative stability in early maturational order (VS: 9.8 years; SA: 13.5 years; MR: 15.8 years),"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "random variability. ent range and several network-parcellation-based gradient metrics, Conversely, non-significant terms would suggest insufficient evidence GAMMs with no random effects with basis complexities determined for systematically distinct lifespan trajectories across sexes (see \u2018Sex- by optimal adjusted R2 and Akaike information criterion (AIC) values"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-026-10220-4",
+      "title": "Climbing fibres recruit disinhibition to enhance Purkinje cell calcium signals",
+      "issue": "",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "o MLI1 and MLI2 synapses. a, Image of a and minimum values. P < 0.001 for paired t-test for the upper plot and not reconstructed CF (blue), the corresponding PC (grey) and an MLI1 (purple",
+        "ses. a, Image of a and minimum values. P < 0.001 for paired t-test for the upper plot and not reconstructed CF (blue), the corresponding PC (grey) and an MLI1 (purple) and significant fo",
+        "PPR and NMDA/AMPA ratios for GrC synapses onto MLI1s ext **P < 0.01. j, Summary of the number of GrC PSDs within 1 \u03bcm of the centre of a and MLI2s in 1.5 mM Ca . Stimulus artefacts have"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10226-y",
+      "title": "Adaptive evolution of gene regulatory networks in mammalian neocortex",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "g the co-localization Hochberg-corrected P value < 0.05 and odds ratio > 1. For RNA-seq, n = 3 percentage for BCL11B and ZBTB18 over total BCL11B+ cells and SATB2 and biological replicates p",
+        "tic showing two dorsal pallial regions (H and M) two-tailed t-test was applied. The graph shows the mean \u00b1 s.e.m. **P = 0.0011; microdissected from E17 chicken embryo. e, Venn diagram sh",
+        "led t-test was applied. The graph shows the mean \u00b1 s.e.m. **P = 0.0011; microdissected from E17 chicken embryo. e, Venn diagram showing the ***P = 0.0004 (n = 3 per species). E, entopalli"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10227-x",
+      "title": "Biosynthesis of cinchona alkaloids",
+      "issue": "",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "8\u2032 + 9\u2032 N. benthamiana 8a\u2032 + 9a\u2032 R1 NH 2 R2 7 8 N 2 R2 N 6-F (8c\u2032 + 9c\u2032) R3 R3 7-F (8d\u2032 + 9d\u2032) R2 N H R3 8\u2032 + 9\u2032: R1 = H; R2 = H; R3 = H 8-F (8e\u2032 + 9e\u2032) 3: R1 = H; R2 = H; R3 = H 8a\u2032",
+        "a 8a\u2032 + 9a\u2032 R1 NH 2 R2 7 8 N 2 R2 N 6-F (8c\u2032 + 9c\u2032) R3 R3 7-F (8d\u2032 + 9d\u2032) R2 N H R3 8\u2032 + 9\u2032: R1 = H; R2 = H; R3 = H 8-F (8e\u2032 + 9e\u2032) 3: R1 = H; R2 = H; R3 = H 8a\u2032 + 9a\u2032: R1 = OMe; R2 =",
+        "7-F (8d\u2032 + 9d\u2032) R2 N H R3 8\u2032 + 9\u2032: R1 = H; R2 = H; R3 = H 8-F (8e\u2032 + 9e\u2032) 3: R1 = H; R2 = H; R3 = H 8a\u2032 + 9a\u2032: R1 = OMe; R2 = H; R3 = H 3a: R1 = OMe; R2 = H; R3 = H 8c\u2032 + 9c\u2032: R1 = F;"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10232-0",
+      "title": "The E3 ubiquitin ligase mechanism specifying targeted microRNA degradation",
+      "issue": "",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "chy was main- accumulate fewer miRNAs shorter than 19 nt. A statistically significant, tained with two sets of scrambled flanking sequences, which indicated albeit weak, signal for ZSWIM8-dependent reducti",
+        "0 3 + 00 1 + 00 3 + 00 + 1, \u2013 000 3 \u2013 0 T6B (2 I 0 n % pu ) t (5 %) 1.2 1.0 0.8 Seed-only (39 nt) 0.6 No flank (28 nt) 0.4 32P 0.2 0 ecnecseroufl PFG dezilamroN a 3\u2032 PAZ 3\u2032 PAZ 3\u2032 PAZ",
+        "in lysis buffer at 4 \u00b0C, lysate was clarified rate-adjusted P < 0.05)88. by centrifugation at 17,000g for 15 min at 4 \u00b0C. After setting aside a por- Three approaches were used to identify"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10242-y",
+      "title": "Thymic health consequences in adults",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ent Framingham Heart Study cohort, higher thymic health was significantly associated with reduced cardiovascular mortality, independent of age, sex and smoking. Thymic health was further linked to syste",
+        "teristics of the thymus as a proxy for ratio (HR) 0.49; 95% confidence interval (CI) 0.45\u20130.53; Fig. 2c). The its functionality (Fig. 1, Methods and Supplementary Fig. 9). The system association was",
+        "th was effects of either age or comorbidities (all type III P < 0.001), firmly higher in female than male participants and significantly declined indicating a prognostic value of thymic h"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10243-x",
+      "title": "Thymic health and immunotherapy outcomes in patients with cancer",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "ymus is crucial for with various cancer types, we observe a significant association between T cell maturation and for maintaining a diverse and specific adaptive thymic health and survival outcomes, i",
+        "number (%) Patients with average or high thymic health had significantly lower Race: white individuals; number (%) 998 (81.9%) 620 (78.2%) 378 (88.9%) risks of progression or death following immune",
+        "IO monotherapy) (high versus low thymic health: number (%) hazard ratio, 0.65; 95% confidence interval (CI), 0.54\u20130.77; average ECOG performance status \u2265 1; 1,006 663 (83.6%) 343 (80.7%) vers"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10250-y",
+      "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion",
+      "issue": "",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "differentiation of stability over time. T cells exhibited a significantly higher degra- TEX CD8+ T cells1\u20133. Nevertheless, how accumulation of depolarized mito- dation rate of Mito-degron-mCherry, whe",
+        "e proteasome and regulation of protein ubiquitination, were significantly enriched in CD8+ T cells compared with in T cells (Extended Data Fig. 1a,b). To CBLB governs mitochondrial protein loss TEX PE",
+        "respiratory chain complex I 20 Cyto-degron Mito-degron 0 -1 P < 0.0001 -2 -3 -4 P = 0.0035 -5 0 0.51.01.52.0 fo egnahc dlof evitaleR IFM yrrehCm )hgihGM/RDM \u2013 wolGM/RDM( Time after CHX tr"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10258-4",
+      "title": "Epigenetic memory of colitis promotes tumour growth",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "-PA rotinegorp/metS k-NN enrichment Control Recovered UMAP1 P = 4.32 \u00d7 10\u201330 L 3 1.6% 9.2% B 0 L \u20133 \u20136 Control Recovered B 2PAMU e Number of differential Relative genes in stem cells ex",
+        "CD44+ (%) Acute ChronicRecovered AP-1 chromatin FOS protein P = 0.001 Control 1PAMU scATAC-seq Absorptive lineage Goblet EEC Stem and progenitor Smooth muscle Intermediate AE T cells B ce",
+        "B cells Smooth muscle Goblet EEC UMAP2 Acute Chronic Iigp1 (P = 1.2 \u00d7 10\u201310) Sfrp1 (P = 1.9 \u00d7 10\u20136) AP-1 (FDR = 1.3 \u00d7 10\u20133) Nlrc5 (P = 1.8 \u00d7 10\u20135) Lamc1 (P = 1.2 \u00d7 10\u20132) ETS (FDR = 1.2"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10259-3",
+      "title": "Synthetic circuits for cell ratio control",
+      "issue": "",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "Venus mScarlet Venus mScarlet 1.6 pTEF1 pTEF1 pTEF2 1.4 1.2 P = 0.8347P = 0.2380 1.0 0.25 0.8 Payload Promoter swapping swapping 0.6 0.4 0.2 0 0 200 400 600 800 1,000 1,200 1,400 1,600 DO",
+        "was performed using unpaired two-tailed Student\u2019s t-tests; P \u2265 0.05, are reported as mean \u00b1 s.d., n = 8 biological replicates. Scale bars, 10 \u03bcm (b), not significant. rapid, iterative ge",
+        "uqerf noitcaretnI )%( ycneuqerf noitcaretnI )%( ycneuqerf c P = 0.0138P = 0.0124 P = 0.0109 Nb1, Nb2, Nb3, SpyCatcher, dockerin, Z17, Sg61 Ag1, Ag2, Ag3, SpyTag, cohesin, Z18, Sg30 d e f"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10264-6",
+      "title": "Androgen activity in the male embryonic hindbrain drives lethal PFA ependymoma",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "2_PAMU UMAP_1 2_PAMU UMAP_1 2_PAMU b c 1.00 0.75 0.50 0.25 P = 0.0032 0 0 2 4 6 8 1012141618202224262830 Time (years) SFP erocs ssenmetS Ref. 21 M F C4M C4 F C3M Ref. 2 C C 3 2M F Female",
+        "M F 1.0 1.2 1.4 1.6 1.8 Incidence h i j 1.00 0.75 0.50 0.25 P = 0.045 0 0 20 40 60 80 100 120 140 Time (months) Low 20 15 10 7 4 3 3 2 High 19 14 6 4 4 2 0 0 0 20 40 60 80 100 120 140 Tim",
+        "40 60 80 100 120 140 Time (months) SFP 1.00 0.75 0.50 0.25 P = 0.026 0 0 20 40 60 80 100120140160180200 Time (months) Low 20 18 16 11 7 6 6 5 3 3 1 High 19 17 12 8 6 3 0 0 0 0 0 0 20 40"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10266-4",
+      "title": "Exposed phosphatidylserine is an\u00a0inhibitory molecule in T cell exhaustion",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "Nature | www.nature.com cinorhC TE EM CM etucA 8 yaD 84 yaD P > 0.05 P < 0.05 P < 0.01 NES 1.4 1.3 1.2 1.1 84 yaD PC1: 49.7% variance ecnairav %2.21 :2CP Naive Stem Transitory TD 100 50 0",
+        "www.nature.com cinorhC TE EM CM etucA 8 yaD 84 yaD P > 0.05 P < 0.05 P < 0.01 NES 1.4 1.3 1.2 1.1 84 yaD PC1: 49.7% variance ecnairav %2.21 :2CP Naive Stem Transitory TD 100 50 0 \u201350 \u2013100",
+        "e.com cinorhC TE EM CM etucA 8 yaD 84 yaD P > 0.05 P < 0.05 P < 0.01 NES 1.4 1.3 1.2 1.1 84 yaD PC1: 49.7% variance ecnairav %2.21 :2CP Naive Stem Transitory TD 100 50 0 \u201350 \u2013100 \u2013100 \u201350"
+      ],
+      "ns_as_evidence": true,
+      "ns_source": "full_text",
+      "ns_evidence_snippets": [
+        "unaffected (Extended Data Fig. 6b). Nevertheless, treatment of proliferation signatures and showed no significant difference in induced transcriptional changes within each subset (Extended Data Ki67 within either TIM3+ population after targeting PS (Fig. 3b and Fig. 6c). Stem-like CD8 T cells remain quiescent in the T cell response Extended Data Fig. 6h). Overall, these d"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-026-10267-3",
+      "title": "Rapid concerted switching of the neural code in the inferotemporal cortex",
+      "issue": "",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "We parameterized the stimuli using layer fc6 of AlexNet32, F(1,150) = 214.7, P < 4.9 \u00d7 10\u221237). To ensure that the consistency of the whose performance in modelling inferotemporal cel",
+        "ting detection, whereas face tion (Fig. 2b, left; r = 0.16, P = 0.04), and similarly for PC2 (Fig. 2b, right; axes were more diverse. Second, time-resolved analysis revealed that r = \u22120.0",
+        "se. Second, time-resolved analysis revealed that r = \u22120.07, P = 0.37). Further confirming the lack of correlation between the face-encoding axis initially aligned with the object-encoding"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10268-2",
+      "title": "Catabolism of extracellular glutathione supplies cysteine to support tumours",
+      "issue": "",
+      "sample_size_category": "effect_size_estimate",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "SGt )M\u03bc( HSGt 1.5 1.0 0.5 0 sg NT C G CL C 1 G CL C 2 sg sg P = 0.0015 1,000 P = 0.0027 100 10 1 Seru m TIF HSG ralullecartnI )sllec 601 rep M\u03bc( P < 0.0001 P < 0.0001 100% P = 0.0017 13%",
+        "1.0 0.5 0 sg NT C G CL C 1 G CL C 2 sg sg P = 0.0015 1,000 P = 0.0027 100 10 1 Seru m TIF HSG ralullecartnI )sllec 601 rep M\u03bc( P < 0.0001 P < 0.0001 100% P = 0.0017 13% 2% 1,500 sgNTC sg",
+        "27 100 10 1 Seru m TIF HSG ralullecartnI )sllec 601 rep M\u03bc( P < 0.0001 P < 0.0001 100% P = 0.0017 13% 2% 1,500 sgNTC sgGCLC 1 sgGCLC 2 1,000 500 0 0 10 20 30 Time after tumour xenograft ("
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10270-8",
+      "title": "Dominant clones leverage developmental epigenomic states to drive ependymoma",
+      "issue": "",
+      "sample_size_category": "resource_constraint",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "significantly later time point, respectively (Extended Data significant differences in the gene expression signatures of PF-EPNs Fig. 5f\u2013h). Given that human ZR EPNs very rarely express OPC markers and",
+        "P)31, these data suggest that ZR may engage genes, adjusted P < 0.001 and average log[fold change] > 1). Notably, 2 accessible PLAG/L TF motifs at an earlier time point in development, at",
+        "N. a, Schematic of human snMultiome data generation from 21 significant expression differences are highlighted. g, Heatmap displaying the patients, including ZR fusion-driven EPN (N = 6), PLAG/L fusi"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    },
+    {
+      "doi": "10.1038/s41586-026-10306-z",
+      "title": "Aversive learning hijacks a brain sugar sensor to consolidate memory",
+      "issue": "",
+      "sample_size_category": "replication_standard",
+      "full_text_available": true,
+      "nhst_used": true,
+      "nhst_source": "full_text",
+      "nhst_evidence_snippets": [
+        "take after spaced training activates brain Gr43a neurons to P = 0.0003; Finteraction = 3.00, P = 0.05). d, Time traces and quantification 1,92 allow LTM formation. a, Schematic and result",
+        "tes brain Gr43a neurons to P = 0.0003; Finteraction = 3.00, P = 0.05). d, Time traces and quantification 1,92 allow LTM formation. a, Schematic and results of experiments measuring LTM (n",
+        "and results of experiments measuring LTM (n = 12, t = 2.50, P = 0.02) of the calcium response in starved or fed flies to bath 22 performance in flies subjected to different combinations o"
+      ],
+      "ns_as_evidence": false,
+      "ns_source": "none",
+      "ns_evidence_snippets": []
+    }
+  ]
+}
