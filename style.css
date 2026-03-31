@@ -1,0 +1,120 @@
+/* underpowered — blog stylesheet */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --text:    #1a1a1a;
+  --muted:   #555;
+  --accent:  #1a5276;
+  --border:  #ddd;
+  --bg:      #fff;
+  --code-bg: #f6f6f6;
+  --max-w:   720px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 2rem 1rem 4rem;
+}
+
+#content {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-top: 1.8rem;
+  color: var(--text);
+}
+
+/* subtitle / tagline */
+p > em:first-child {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+a { color: var(--accent); }
+
+/* tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+  margin: 1.2rem 0;
+}
+th {
+  background: var(--accent);
+  color: #fff;
+  padding: 0.45rem 0.7rem;
+  text-align: left;
+  font-weight: normal;
+}
+td {
+  padding: 0.4rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+}
+tr:nth-child(even) td { background: #f9f9f9; }
+
+/* blockquotes / callouts */
+blockquote {
+  border-left: 4px solid var(--accent);
+  margin: 1.2rem 0;
+  padding: 0.4rem 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* code */
+code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.85rem;
+  background: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+/* glossary: bold term + definition on same line */
+dl dt { font-weight: bold; margin-top: 0.8rem; }
+dl dd { margin-left: 1.5rem; color: var(--muted); }
+
+/* footer byline */
+body > div > p:last-child em {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  body  { font-size: 16px; }
+  h1    { font-size: 1.5rem; }
+  table { font-size: 0.82rem; }
+}
