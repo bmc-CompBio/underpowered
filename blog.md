@@ -124,7 +124,7 @@ Three things, none of them radical:
 
 ## Code and data
 
-The full pipeline — Crossref query, PDF download, Reporting Summary extraction, classification, full-text analysis — is available at [GitHub link]. The classified dataset is in `data/multi_issue_dataset_filtered.json`. You can rerun the entire analysis or extend it to additional issues with a single script call.
+The full pipeline — Crossref query, PDF download, Reporting Summary extraction, classification, full-text analysis — is available at https://github.com/bmc-CompBio/underpowered. The classified dataset is in `data/multi_issue_dataset_filtered.json`. You can rerun the entire analysis or extend it to additional issues with a single script call.
 
 I intend to extend this to a full year of Nature and potentially additional journals. If you have thoughts or want to collaborate, get in touch.
 
