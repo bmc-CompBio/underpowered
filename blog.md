@@ -18,7 +18,7 @@ I wondered: what do three months of Nature life-science papers actually say when
 
 ## What I did
 
-I built an automated pipeline that downloads Nature Reporting Summary PDFs and extracts the sample-size field for every experimental life-science paper published across 12 consecutive issues (January to March 2026, issues 8096–8107). Articles using purely structural, observational, or ecological study designs — where the conventional NHST sample-size logic doesn't apply — were excluded. This left **83 experimental articles**.
+I built an automated pipeline that downloads Nature Reporting Summary PDFs and extracts the sample-size field for every experimental life-science paper published across 12 consecutive issues (January to March 2026, issues 8096–8107). Articles using purely structural, observational, or ecological study designs — where the conventional null-hypothesis significance testing (NHST) sample-size logic doesn't apply — were excluded. This left **83 experimental articles**.
 
 I then classified the sample-size justification in each Reporting Summary into one of seven categories, resolved ambiguous cases by manual review, and verified the full dataset by hand. The pipeline and raw data are publicly available.
 
@@ -47,7 +47,7 @@ This is not surprising. Similar audits going back to Button et al. (2013) have r
 
 ## Finding 2: 100% of experimental papers without a power calculation used hypothesis testing anyway
 
-Having established that 89% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for null-hypothesis statistical testing (NHST): p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.
+Having established that 89% of articles lacked a formal power calculation, I downloaded the full-text PDFs and scanned for NHST: p-values, t-tests, ANOVAs, Mann-Whitney tests, confidence intervals, FDR correction, and so on.
 
 Among the 69 experimental papers that lacked a power calculation and were not technique-determined:
 
@@ -129,6 +129,28 @@ Three things, none of them radical:
 The full pipeline — Crossref query, PDF download, Reporting Summary extraction, classification, full-text analysis — is available at https://github.com/bmc-CompBio/underpowered. The classified dataset is in `data/multi_issue_dataset_filtered.json`. You can rerun the entire analysis or extend it to additional issues with a single script call.
 
 I intend to extend this to a full year of Nature and potentially additional journals. If you have thoughts or want to collaborate, get in touch.
+
+---
+
+## Glossary
+
+**A priori power calculation** — A calculation performed *before* data collection to determine the minimum sample size needed to detect a hypothesised effect with a specified probability. Requires three inputs: the significance threshold (α), the desired statistical power (1 − β), and an expected effect size.
+
+**Effect size** — A quantitative measure of the magnitude of a difference or relationship (e.g. Cohen's d, Pearson's r, odds ratio). Distinct from statistical significance: a result can be highly significant but trivially small, or large but non-significant due to inadequate sample size.
+
+**False negative (Type II error)** — Failing to detect a real effect. The probability of a false negative is β. In underpowered studies β is large and often unknown.
+
+**False positive (Type I error)** — Detecting an effect that does not exist. The significance threshold α caps the false-positive rate — conventionally at 5% (p < 0.05).
+
+**FDR (false discovery rate)** — A correction method applied when performing many simultaneous statistical tests. Controls the expected proportion of false positives among all significant results, rather than the per-test false-positive rate.
+
+**NHST (null-hypothesis significance testing)** — The dominant statistical framework in experimental biology. A null hypothesis (typically: no effect, no difference) is specified; data are collected; a test statistic is computed; if the probability of observing data at least as extreme as those collected, *assuming the null is true*, falls below a threshold (p < α), the null is rejected and the result is declared significant.
+
+**p-value** — The probability of obtaining a test statistic as extreme as the one observed, assuming the null hypothesis is true. Commonly misinterpreted as the probability that the null hypothesis is true, or as the probability that a finding will replicate. It is neither.
+
+**Statistical power** — The probability that a study will detect a true effect of a given size. Conventionally targeted at 80% (β = 0.20), meaning a 20% chance of missing a real effect. Actual power in many life-science experiments is substantially lower.
+
+**Underpowered study** — A study with insufficient sample size to reliably detect the effect of interest. Consequences include high false-negative rates, inflated effect-size estimates in positive findings (the "winner's curse"), and poor replicability.
 
 ---
 
