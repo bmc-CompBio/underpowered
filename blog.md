@@ -128,17 +128,55 @@ That shift is possible. Several journals and funders are already pushing in this
 
 ---
 
+## A selection of statements from the Reporting Summary field
+
+The verbatim RS texts collected here range from careful to circular to, occasionally, genuinely startling. A few examples:
+
+> *"it is impossible to calculate the required sample size as the exact magnitude of experimental variation between animals can not be predicted from our current knowledge. The group sizes (at least five animals per group) exceed the minimum number of animals needed to reach statistical significance (p < 0.05) between experimental groups."*
+
+The same paragraph that declares effect size unknowable then claims to know the minimum n needed to reach significance. Both claims cannot be simultaneously true.
+
+> *"Sample size calculation was not applicable, as this study focused on a single individual."*
+
+Stated three times in a paper that was automatically classified as `power_calc` by the extraction pipeline.
+
+> *"Number of sample size were chosen based on the maximum number of replicates that could be simultaneously analyzed with adequate statistics."*
+
+The sample size was the maximum that could be run with adequate statistics; adequate statistics was defined by what could be run. No external anchor.
+
+> *"we felt should suffice to show a statistical difference if the effect size was robust and significantly large."*
+
+An honest admission that the chosen n is only adequate conditional on the effect cooperating — the inverse of power analysis.
+
+> *"these replicate numbers have historically been sufficient to detect the expected differences with appropriate statistical power."*
+
+Historical success as a proxy for power adequacy. If the experiment worked before with n=3, n=3 is powered.
+
+> *"Sample sizes in each experiment were based on the number of samples that we were able to collect/dissect/process within 2hrs."*
+
+The sample size was determined by the length of a bench session.
+
+> *"All experiments designed to probe the function of distinct enzymes were conducted with a sample size of at least three to ensure minimal statistical power analysis."*
+
+The stated goal is *minimal* power analysis. As goals go, this one is at least honest.
+
+These statements are not outliers selected from a sea of rigorous disclosures. They are representative of the reasoning that underlies a substantial fraction of experimental life-science research published in the highest-impact journal in the world.
+
+---
+
 ## What would better look like?
 
 Three things, none of them radical:
 
-1. **Replace the free-text sample-size field with a binary question.** The current Reporting Summary asks authors to *describe* how they determined their sample size, which produces everything from a rigorous power analysis to "we used n = 3 because that is standard in our field." A yes/no checkbox — *Was a formal a priori power calculation performed?* — would be unambiguous, machine-readable, and impossible to satisfy with a non-answer. There is no in-between: either you calculated the required sample size before collecting data, or you did not. The checkbox should appear on the first page of the paper, alongside the author list.
+1. **Replace the free-text field with a default-NO checkbox — and make it machine-readable.** The current free-text field is structurally broken in two ways. First, it accepts any text as a valid response, so authors can satisfy the requirement with a non-answer ("we used n=3 because that is standard in our field"). Second, free text cannot be systematically audited at scale. The fix is a checkbox that reads: *A formal a priori power calculation was performed for all experimental series in this manuscript.* The box should default to **unchecked** — requiring an active positive claim rather than a passive omission. Checking it should open a structured entry requiring α, β, the effect size estimate and its source, and the resulting minimum n for each experimental series. Leaving it unchecked requires no further action and carries no stigma. The checkbox state is machine-readable and can be aggregated, reported, and monitored by editors, funders, and audits like this one.
 
    The logical extension — and I am aware this will not happen for structural reasons — would be to label papers at the point of publication: **confirmatory** (pre-registered hypothesis, pre-specified sample size, power calculation documented) versus **exploratory** (hypothesis-generating, sample size not formally justified). Most of what Nature publishes would carry the exploratory label. That would not make it less valuable. It would make it more honestly interpreted.
 
-2. **Treat non-significant results as inconclusive by default** unless accompanied by a prospective power calculation or an equivalence test with prespecified margins. The rhetorical move of "we found no significant difference, therefore there is no difference" should not pass peer review unchallenged.
+2. **Automated pre-publication consistency checking.** The Reporting Summary is already a structured form submitted alongside the manuscript. There is no technical obstacle to running automated checks before a paper is sent to reviewers: does the stated n in the RS match the n reported in the methods? If the power calculation box is checked, are the stated parameters (α, β, effect size) present in the structured fields? If non-significant results appear in the results section, is there a power calculation or equivalence test on file? None of these checks require a statistician. They require a script. The infrastructure already exists; it is a question of editorial will to use it.
 
-3. **Separate the inference from the test.** Reporting p-values alongside effect sizes and confidence intervals shifts the focus from binary significance to magnitude of evidence. Many journals now require this; Nature's own statistical guidelines recommend it. The gap between the guidelines and the papers documented here suggests the recommendation alone is not sufficient.
+3. **Treat non-significant results as inconclusive by default** unless accompanied by a prospective power calculation or an equivalence test with prespecified margins. The rhetorical move of "we found no significant difference, therefore there is no difference" should not pass peer review unchallenged.
+
+4. **Separate the inference from the test.** Reporting p-values alongside effect sizes and confidence intervals shifts the focus from binary significance to magnitude of evidence. Many journals now require this; Nature's own statistical guidelines recommend it. The gap between the guidelines and the papers documented here suggests the recommendation alone is not sufficient.
 
 ---
 
