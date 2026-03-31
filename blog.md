@@ -114,7 +114,9 @@ That shift is possible. Several journals and funders are already pushing in this
 
 Three things, none of them radical:
 
-1. **Require power calculations, not just a disclosure field.** If the answer to "how did you determine your sample size?" is "we used the same n as previous studies," the reviewer should ask: and how was *that* n determined?
+1. **Replace the free-text sample-size field with a binary question.** The current Reporting Summary asks authors to *describe* how they determined their sample size, which produces everything from a rigorous power analysis to "we used n = 3 because that is standard in our field." A yes/no checkbox — *Was a formal a priori power calculation performed?* — would be unambiguous, machine-readable, and impossible to satisfy with a non-answer. There is no in-between: either you calculated the required sample size before collecting data, or you did not. The checkbox should appear on the first page of the paper, alongside the author list.
+
+   The logical extension — and I am aware this will not happen for structural reasons — would be to label papers at the point of publication: **confirmatory** (pre-registered hypothesis, pre-specified sample size, power calculation documented) versus **exploratory** (hypothesis-generating, sample size not formally justified). Most of what Nature publishes would carry the exploratory label. That would not make it less valuable. It would make it more honestly interpreted.
 
 2. **Treat non-significant results as inconclusive by default** unless accompanied by a prospective power calculation or an equivalence test with prespecified margins. The rhetorical move of "we found no significant difference, therefore there is no difference" should not pass peer review unchallenged.
 
